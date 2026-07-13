@@ -147,6 +147,12 @@ h1, h2, h3, h4 { margin: 0; font-weight: 400; }
   padding: 10px 0; min-width: 220px; display: none; flex-direction: column;
   box-shadow: 0 16px 34px rgba(0,0,0,0.4);
 }
+/* invisible bridge over the 14px gap above — without it, moving the mouse from
+   the trigger down toward a menu item crosses a dead zone, :hover breaks, and
+   the menu closes before the click lands. */
+.nav-drop-menu::before {
+  content: ""; position: absolute; top: -14px; left: 0; right: 0; height: 14px;
+}
 .nav-drop-menu a { padding: 9px 20px; font-size: 14px; color: var(--on-dark-2); }
 .nav-drop-menu a:hover { background: rgba(255,255,255,0.06); color: #FFFFFF; }
 .nav-drop.open .nav-drop-menu, .nav-drop:focus-within .nav-drop-menu { display: flex; }
