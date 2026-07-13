@@ -21,6 +21,10 @@ const archivo = Archivo({
 
 export const metadata = {
   metadataBase: new URL("https://www.roomtoescape.com"),
+  robots: {
+    index: false,
+    follow: false,
+  },
   icons: {
     icon: "/favicon.svg",
   },
