@@ -1,14 +1,14 @@
-import { Anton, Archivo } from "next/font/google";
+import { Big_Shoulders, Archivo } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileCta from "@/components/MobileCta";
 import ScrollEffects from "@/components/ScrollEffects";
 
-const anton = Anton({
+const bigShoulders = Big_Shoulders({
   subsets: ["latin"],
-  weight: "400",
-  variable: "--font-anton",
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-big-shoulders",
   display: "swap",
 });
 
@@ -62,7 +62,7 @@ const localBusinessJsonLd = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${anton.variable} ${archivo.variable}`}>
+    <html lang="en" className={`${bigShoulders.variable} ${archivo.variable}`}>
       <body>
         <script
           type="application/ld+json"

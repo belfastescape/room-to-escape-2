@@ -57,7 +57,7 @@ export default function HomePage() {
                 href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html"
                 rel="noopener"
               >
-                [RATING] — [N] TripAdvisor reviews
+                5.0/5.0 TripAdvisor reviews
               </a>
             </div>
             <div
@@ -95,7 +95,7 @@ export default function HomePage() {
                 background: "#fff",
                 borderRadius: "10px",
                 padding: "10px",
-                boxShadow: "0 16px 34px rgba(23,21,20,0.30)",
+                boxShadow: "0 16px 34px rgba(0,0,0,0.5)",
                 transform: "rotate(-3deg)",
               }}
             >
@@ -105,8 +105,8 @@ export default function HomePage() {
                 style={{ width: "200px", height: "140px", objectFit: "cover", borderRadius: "6px" }}
                 loading="lazy"
               />
-              <div style={{ fontWeight: "700", fontSize: "12px", color: "var(--ink)", padding: "8px 4px 2px" }}>
-                They escaped! <span style={{ color: "var(--muted)", fontWeight: "500" }}>— Saturday, 7:14pm</span>
+              <div style={{ fontWeight: "700", fontSize: "12px", color: "#171514", padding: "8px 4px 2px" }}>
+                They escaped! <span style={{ color: "#8f8a80", fontWeight: "500" }}>— Saturday, 7:14pm</span>
               </div>
             </div>
           </div>

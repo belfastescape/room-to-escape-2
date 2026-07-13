@@ -20,8 +20,7 @@ export default function Footer() {
                 260-693-8836
               </a>
             </div>
-            {/* TODO-OWNER: replace [RATING]/[N] with live TripAdvisor numbers at publish time */}
-            <div className="rating-badge" style={{ color: "#C9C2B4" }}>
+            <div className="rating-badge" style={{ color: "var(--on-dark)" }}>
               <span className="stars" aria-hidden="true">
                 ★★★★★
               </span>
@@ -29,7 +28,7 @@ export default function Footer() {
                 href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html"
                 rel="noopener"
               >
-                [RATING] · [N] TripAdvisor reviews
+                5.0/5.0 TripAdvisor reviews
               </a>
             </div>
           </div>

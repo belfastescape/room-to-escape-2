@@ -30,7 +30,7 @@ export default function Page_book_a_game() {
         <span className="rating-badge" style={{color: 'var(--on-dark)'}}>
           <span className="stars" aria-hidden="true">★★★★★</span>
           
-          <a href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html" rel="noopener" style={{color: 'var(--on-dark)'}}>[RATING] · [N] TripAdvisor reviews</a>
+          <a href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html" rel="noopener" style={{color: 'var(--on-dark)'}}>5.0/5.0 TripAdvisor reviews</a>
         </span>
       </div>
     </div>

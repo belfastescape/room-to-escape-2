@@ -27,7 +27,7 @@ export default function Page_reviews() {
       <div className="rating-badge" style={{color: 'var(--on-dark)', marginTop: '6px'}}>
         <span className="stars" aria-hidden="true">★★★★★</span>
         
-        <a href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html" rel="noopener" style={{color: 'var(--on-dark)'}}>[RATING] · [N] reviews on TripAdvisor</a>
+        <a href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html" rel="noopener" style={{color: 'var(--on-dark)'}}>5.0/5.0 reviews on TripAdvisor</a>
       </div>
     </div>
   </section>
