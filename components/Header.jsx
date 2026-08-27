@@ -5,11 +5,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const ROOM_LINKS = [
-  { href: "/the-disappearing-act.html", label: "The Disappearing Act" },
-  { href: "/cabin-in-the-storm.html", label: "Cabin In The Storm" },
-  { href: "/dining-room-caper.html", label: "Dining Room Caper" },
-  { href: "/museum-heist.html", label: "Museum Heist" },
-  { href: "/triumph-over-evil.html", label: "Triumph Over Evil" },
+  { href: "/the-vanishing-hour.html", label: "The Vanishing Hour" },
+  { href: "/blackout-cabin.html", label: "Blackout Cabin" },
+  { href: "/dinner-at-eight.html", label: "Dinner at Eight" },
+  { href: "/the-gallery-job.html", label: "The Gallery Job" },
+  { href: "/last-stand.html", label: "Last Stand" },
 ];
 
 const ABOUT_LINKS = [
@@ -91,14 +91,11 @@ function HeaderNav({ pathname }) {
           </div>
         </div>
 
-        <Link href="/blog.html" {...current("/blog.html")}>
-          Blog
-        </Link>
         <Link href="/contact.html" {...current("/contact.html")}>
           Contact
         </Link>
-        <a className="nav-phone" href="tel:2606938836">
-          260-693-8836
+        <a className="nav-phone" href="tel:2175550182">
+          (217) 555-0182
         </a>
         <Link className="nav-cta" href="/book-a-game.html" {...current("/book-a-game.html")}>
           Book Now
@@ -123,7 +120,7 @@ export default function Header() {
     <header className={`site-header${isStuck ? " is-stuck" : ""}`}>
       <div className="bar">
         <Link className="logo" href="/">
-          ROOM TO <span className="red">ESCAPE</span>
+          CIPHER <span className="red">& KEY</span>
         </Link>
         <HeaderNav key={pathname} pathname={pathname} />
       </div>

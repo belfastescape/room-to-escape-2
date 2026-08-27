@@ -1,16 +1,16 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Try an Escape Room Challenge in Fort Wayne for Parties & More - Room to Escape | Fort Wayne Room to Escape",
-  description: "Do you have questions about our escape room challenges in Fort Wayne? Contact us via online form or give us a call at 260-693-8836. Or, book online!",
+  title: "Try an Escape Room Challenge in Springfield for Parties & More - Cipher & Key | Springfield Cipher & Key",
+  description: "Do you have questions about our escape room challenges in Springfield? Contact us via online form or give us a call at (217) 555-0182. Or, book online!",
   alternates: { canonical: "/contact.html" },
   openGraph: {
     type: "website",
-    siteName: "Room to Escape",
-    url: "https://www.roomtoescape.com/contact.html",
-    title: "Contact Us — Room to Escape Fort Wayne",
-    description: "Do you have questions about our escape room challenges in Fort Wayne? Contact us via online form or give us a call at 260-693-8836. Or, book online!",
-    images: "https://www.roomtoescape.com/images/contact-exterior.webp",
+    siteName: "Cipher & Key",
+    url: "https://www.cipherandkey.com/contact.html",
+    title: "Contact Us — Cipher & Key Springfield",
+    description: "Do you have questions about our escape room challenges in Springfield? Contact us via online form or give us a call at (217) 555-0182. Or, book online!",
+    images: "https://www.cipherandkey.com/images/contact-exterior.webp",
   },
   twitter: { card: "summary_large_image" },
 };
@@ -73,12 +73,12 @@ export default function Page_contact() {
       
       <aside style={{width: '400px', flexShrink: '0', display: 'flex', flexDirection: 'column', gap: '16px'}}>
         <div className="panel">
-          <div style={{height: '200px'}}><img src="/images/contact-exterior.webp" alt="The Room to Escape building at 3734 Allen Ave, Fort Wayne" loading="lazy" style={{width: '100%', height: '100%', objectFit: 'cover'}} /></div>
+          <div style={{height: '200px'}}><img src="/images/contact-exterior.webp" alt="The Cipher & Key building at 1200 Kestrel Street, Springfield" loading="lazy" style={{width: '100%', height: '100%', objectFit: 'cover'}} /></div>
           <div className="panel-pad" style={{display: 'flex', flexDirection: 'column', gap: '14px'}}>
             <div className="panel-title">Come find us</div>
-            <div style={{fontSize: '15px', lineHeight: '1.7'}}>3734 Allen Ave<br />Fort Wayne, IN 46805</div>
-            <p style={{fontSize: '15px', lineHeight: '1.6', margin: '0'}}>Call <a className="text-link" href="tel:2606938836">260-693-8836</a> — we may be working a game and unable to answer, so please leave us a message.</p>
-            <div style={{fontSize: '15px'}}>Email: <a className="text-link" href="mailto:info@roomtoescape.com">info@roomtoescape.com</a></div>
+            <div style={{fontSize: '15px', lineHeight: '1.7'}}>1200 Kestrel Street<br />Springfield, IL 62704</div>
+            <p style={{fontSize: '15px', lineHeight: '1.6', margin: '0'}}>Call <a className="text-link" href="tel:2175550182">(217) 555-0182</a> — we may be working a game and unable to answer, so please leave us a message.</p>
+            <div style={{fontSize: '15px'}}>Email: <a className="text-link" href="mailto:hello@cipherandkey.com">hello@cipherandkey.com</a></div>
             <Link className="text-link" href="/location.html" style={{fontSize: '14.5px'}}>Directions &amp; parking →</Link>
           </div>
         </div>

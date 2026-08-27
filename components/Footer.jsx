@@ -7,29 +7,24 @@ export default function Footer() {
         <div className="cols">
           <div className="col brand">
             <div className="logo">
-              ROOM TO <span className="red">ESCAPE</span>
+              CIPHER <span className="red">& KEY</span>
             </div>
             <div>
-              3734 Allen Ave
+              1200 Kestrel Street
               <br />
-              Fort Wayne, IN 46805
+              Springfield, IL 62704
             </div>
             <div>
               Call us:{" "}
-              <a className="phone" href="tel:2606938836">
-                260-693-8836
+              <a className="phone" href="tel:2175550182">
+                (217) 555-0182
               </a>
             </div>
             <div className="rating-badge" style={{ color: "var(--on-dark)" }}>
               <span className="stars" aria-hidden="true">
                 ★★★★★
               </span>
-              <a
-                href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html"
-                rel="noopener"
-              >
-                5.0/5.0 TripAdvisor reviews
-              </a>
+              <span>4.9 average player rating</span>
             </div>
           </div>
           <div className="col">
@@ -46,11 +41,11 @@ export default function Footer() {
           <div className="col">
             <div className="label">The Rooms</div>
             <div className="links">
-              <Link href="/the-disappearing-act.html">The Disappearing Act</Link>
-              <Link href="/cabin-in-the-storm.html">Cabin In The Storm</Link>
-              <Link href="/dining-room-caper.html">Dining Room Caper</Link>
-              <Link href="/museum-heist.html">Museum Heist</Link>
-              <Link href="/triumph-over-evil.html">Triumph Over Evil</Link>
+              <Link href="/the-vanishing-hour.html">The Vanishing Hour</Link>
+              <Link href="/blackout-cabin.html">Blackout Cabin</Link>
+              <Link href="/dinner-at-eight.html">Dinner at Eight</Link>
+              <Link href="/the-gallery-job.html">The Gallery Job</Link>
+              <Link href="/last-stand.html">Last Stand</Link>
             </div>
           </div>
           <div className="col">
@@ -60,25 +55,14 @@ export default function Footer() {
               <Link href="/parties-and-events.html">Parties &amp; Events</Link>
               <Link href="/faq.html">FAQ</Link>
               <Link href="/reviews.html">Reviews</Link>
-              <Link href="/blog.html">RTE News Blog</Link>
               <Link href="/contact.html">Contact</Link>
             </div>
           </div>
         </div>
         <div className="bottom">
-          <span>Room to Escape · Fort Wayne, Indiana</span>
+          <span>Cipher & Key · Springfield, Illinois</span>
           <div style={{ display: "flex", gap: "22px" }}>
-            <a
-              href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html"
-              rel="noopener"
-            >
-              TripAdvisor
-            </a>
-            <a href="https://www.youtube.com/" rel="noopener">
-              YouTube
-            </a>
-            {/* not rebuilt in this pass — see PROJECT-STATUS.md */}
-            <a href="/cookie-policy.html">Cookie Policy</a>
+            <span>Demonstration site — not a real business.</span>
           </div>
         </div>
       </div>

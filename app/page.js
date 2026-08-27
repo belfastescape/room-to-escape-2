@@ -1,18 +1,18 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Room to Escape | Fort Wayne Room to Escape - Fort Waynes Escape Room",
+  title: "Cipher & Key | Springfield Cipher & Key - Springfield's Escape Room",
   description:
-    "Book our Fort Wayne escape room today! Solve codes, puzzles, and explore hidden chambers for your next party or teambuilding event.",
+    "Book our Springfield escape room today! Solve codes, puzzles, and explore hidden chambers for your next party or teambuilding event.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    siteName: "Room to Escape",
-    url: "https://www.roomtoescape.com/",
-    title: "Room to Escape | Fort Wayne Escape Room",
+    siteName: "Cipher & Key",
+    url: "https://www.cipherandkey.com/",
+    title: "Cipher & Key | Springfield Escape Room",
     description:
-      "Book our Fort Wayne escape room today! Solve codes, puzzles, and explore hidden chambers for your next party or teambuilding event.",
-    images: ["https://www.roomtoescape.com/images/home-hero.webp"],
+      "Book our Springfield escape room today! Solve codes, puzzles, and explore hidden chambers for your next party or teambuilding event.",
+    images: ["https://www.cipherandkey.com/images/home-hero.webp"],
   },
   twitter: { card: "summary_large_image" },
 };
@@ -31,7 +31,7 @@ export default function HomePage() {
               One hour. One way out.
             </p>
             <h1 className="display" style={{ fontSize: "clamp(44px,6vw,68px)", maxWidth: "520px" }}>
-              escape room fort wayne
+              escape room springfield
             </h1>
             <p style={{ fontSize: "18px", maxWidth: "470px", textWrap: "pretty", margin: "0" }}>
               Five themed rooms built for families, friends and co-workers. Work together, crack the codes and beat
@@ -53,12 +53,7 @@ export default function HomePage() {
               <span className="stars" aria-hidden="true">
                 ★★★★★
               </span>
-              <a
-                href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html"
-                rel="noopener"
-              >
-                5.0/5.0 TripAdvisor reviews
-              </a>
+              <span>4.9 average player rating</span>
             </div>
             <div
               style={{ display: "flex", gap: "30px", marginTop: "10px", fontSize: "14px", color: "var(--muted)", flexWrap: "wrap" }}
@@ -82,7 +77,7 @@ export default function HomePage() {
                 src="/images/home-hero-1600.webp"
                 width="1600"
                 height="900"
-                alt="Inside a Room to Escape game room in Fort Wayne"
+                alt="Inside a Cipher & Key game room in Springfield"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 fetchPriority="high"
               />
@@ -148,32 +143,32 @@ export default function HomePage() {
           </div>
           <div className="room-grid">
             <article className="room-card reveal">
-              <Link href="/the-disappearing-act.html" className="thumb" aria-label="The Disappearing Act — room details">
+              <Link href="/the-vanishing-hour.html" className="thumb" aria-label="The Vanishing Hour — room details">
                 <img
-                  src="/images/disappearing-card-sm.webp"
-                  alt="The Disappearing Act escape room — the magician's stage"
+                  src="/images/vanishing-card-sm.webp"
+                  alt="The Vanishing Hour escape room — the empty stage"
                   loading="lazy"
                 />
                 <span className="badge">Low difficulty</span>
               </Link>
               <div className="body">
                 <h3 className="name">
-                  <Link href="/the-disappearing-act.html">The Disappearing Act</Link>
+                  <Link href="/the-vanishing-hour.html">The Vanishing Hour</Link>
                 </h3>
                 <div className="meta">
                   <span>Up to 8 players</span>
                   <span>·</span>
                   <span>60 min</span>
                 </div>
-                <p className="hook">The magician is missing — and the show starts in one hour.</p>
+                <p className="hook">A theatre reopening after decades — and an illusion nobody finished.</p>
                 <p className="price">
                   $29.95 <small>/ person</small>
                 </p>
                 <div className="actions">
-                  <Link className="text-link" href="/the-disappearing-act.html">
+                  <Link className="text-link" href="/the-vanishing-hour.html">
                     Room details →
                   </Link>
-                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=the-disappearing-act">
+                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=the-vanishing-hour">
                     Book Now
                   </Link>
                 </div>
@@ -181,17 +176,17 @@ export default function HomePage() {
             </article>
 
             <article className="room-card reveal">
-              <Link href="/cabin-in-the-storm.html" className="thumb" aria-label="Cabin In The Storm — room details">
+              <Link href="/blackout-cabin.html" className="thumb" aria-label="Blackout Cabin — room details">
                 <img
-                  src="/images/cabin-card-sm.webp"
-                  alt="Cabin In The Storm escape room — a lantern-lit cabin"
+                  src="/images/blackout-card-sm.webp"
+                  alt="Blackout Cabin escape room — a lantern-lit cabin"
                   loading="lazy"
                 />
                 <span className="badge">High difficulty</span>
               </Link>
               <div className="body">
                 <h3 className="name">
-                  <Link href="/cabin-in-the-storm.html">Cabin In The Storm</Link>
+                  <Link href="/blackout-cabin.html">Blackout Cabin</Link>
                 </h3>
                 <div className="meta">
                   <span>Up to 6 players</span>
@@ -203,10 +198,10 @@ export default function HomePage() {
                   $29.95 <small>/ person</small>
                 </p>
                 <div className="actions">
-                  <Link className="text-link" href="/cabin-in-the-storm.html">
+                  <Link className="text-link" href="/blackout-cabin.html">
                     Room details →
                   </Link>
-                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=cabin-in-the-storm">
+                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=blackout-cabin">
                     Book Now
                   </Link>
                 </div>
@@ -214,32 +209,32 @@ export default function HomePage() {
             </article>
 
             <article className="room-card reveal">
-              <Link href="/dining-room-caper.html" className="thumb" aria-label="Dining Room Caper — room details">
+              <Link href="/dinner-at-eight.html" className="thumb" aria-label="Dinner at Eight — room details">
                 <img
-                  src="/images/dining-card-sm.webp"
-                  alt="Dining Room Caper escape room — a formal dining table"
+                  src="/images/dinner-card-sm.webp"
+                  alt="Dinner at Eight escape room — a formal dining table"
                   loading="lazy"
                 />
                 <span className="badge">Medium difficulty</span>
               </Link>
               <div className="body">
                 <h3 className="name">
-                  <Link href="/dining-room-caper.html">Dining Room Caper</Link>
+                  <Link href="/dinner-at-eight.html">Dinner at Eight</Link>
                 </h3>
                 <div className="meta">
                   <span>Up to 8 players</span>
                   <span>·</span>
                   <span>60 min</span>
                 </div>
-                <p className="hook">A mystery dinner party where nothing is quite as it seems.</p>
+                <p className="hook">Eight sat down to dinner. Seven are still at the table.</p>
                 <p className="price">
                   $29.95 <small>/ person</small>
                 </p>
                 <div className="actions">
-                  <Link className="text-link" href="/dining-room-caper.html">
+                  <Link className="text-link" href="/dinner-at-eight.html">
                     Room details →
                   </Link>
-                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=dining-room-caper">
+                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=dinner-at-eight">
                     Book Now
                   </Link>
                 </div>
@@ -247,32 +242,32 @@ export default function HomePage() {
             </article>
 
             <article className="room-card reveal">
-              <Link href="/museum-heist.html" className="thumb" aria-label="Museum Heist — room details">
+              <Link href="/the-gallery-job.html" className="thumb" aria-label="The Gallery Job — room details">
                 <img
-                  src="/images/museum-card-sm.webp"
-                  alt="Museum Heist escape room — gallery display cases"
+                  src="/images/gallery-card-sm.webp"
+                  alt="The Gallery Job escape room — gallery display cases"
                   loading="lazy"
                 />
                 <span className="badge">Low difficulty</span>
               </Link>
               <div className="body">
                 <h3 className="name">
-                  <Link href="/museum-heist.html">Museum Heist</Link>
+                  <Link href="/the-gallery-job.html">The Gallery Job</Link>
                 </h3>
                 <div className="meta">
                   <span>Up to 6 players</span>
                   <span>·</span>
                   <span>60 min</span>
                 </div>
-                <p className="hook">Slip past security and pull off the heist of the century.</p>
+                <p className="hook">One hour to find the real painting before the warden's round.</p>
                 <p className="price">
                   $29.95 <small>/ person</small>
                 </p>
                 <div className="actions">
-                  <Link className="text-link" href="/museum-heist.html">
+                  <Link className="text-link" href="/the-gallery-job.html">
                     Room details →
                   </Link>
-                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=museum-heist">
+                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=the-gallery-job">
                     Book Now
                   </Link>
                 </div>
@@ -280,32 +275,32 @@ export default function HomePage() {
             </article>
 
             <article className="room-card reveal">
-              <Link href="/triumph-over-evil.html" className="thumb" aria-label="Triumph Over Evil — room details">
+              <Link href="/last-stand.html" className="thumb" aria-label="Last Stand — room details">
                 <img
-                  src="/images/triumph-card-sm.webp"
-                  alt="Triumph Over Evil escape room — the séance table"
+                  src="/images/laststand-card-sm.webp"
+                  alt="Last Stand escape room — the astronomer's work table"
                   loading="lazy"
                 />
                 <span className="badge badge-dark">Game Master–controlled</span>
               </Link>
               <div className="body">
                 <h3 className="name">
-                  <Link href="/triumph-over-evil.html">Triumph Over Evil</Link>
+                  <Link href="/last-stand.html">Last Stand</Link>
                 </h3>
                 <div className="meta">
                   <span>Up to 6 players</span>
                   <span>·</span>
                   <span>60 min</span>
                 </div>
-                <p className="hook">Face down a dark force before your hour runs out.</p>
+                <p className="hook">Forty years of charts, one sealed room, and a date fixed to today.</p>
                 <p className="price">
                   $29.95 <small>/ person</small>
                 </p>
                 <div className="actions">
-                  <Link className="text-link" href="/triumph-over-evil.html">
+                  <Link className="text-link" href="/last-stand.html">
                     Room details →
                   </Link>
-                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=triumph-over-evil">
+                  <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=last-stand">
                     Book Now
                   </Link>
                 </div>
@@ -314,7 +309,7 @@ export default function HomePage() {
 
             <Link className="promo-card reveal" href="/book-a-game.html">
               <div className="name">Can't decide?</div>
-              <p>Call us at 260-693-8836 and we'll match a room to your group — or compare all five below.</p>
+              <p>Call us at (217) 555-0182 and we'll match a room to your group — or compare all five below.</p>
               <span className="go">Check availability →</span>
             </Link>
           </div>
@@ -343,7 +338,7 @@ export default function HomePage() {
               <tbody>
                 <tr>
                   <td className="room-name">
-                    <Link href="/the-disappearing-act.html">The Disappearing Act</Link>
+                    <Link href="/the-vanishing-hour.html">The Vanishing Hour</Link>
                   </td>
                   <td>
                     <span className="locks" role="img" aria-label="Difficulty 2 of 5">
@@ -367,14 +362,14 @@ export default function HomePage() {
                   <td>Up to 8</td>
                   <td>First-timers &amp; big groups</td>
                   <td>
-                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=the-disappearing-act">
+                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=the-vanishing-hour">
                       Book Now
                     </Link>
                   </td>
                 </tr>
                 <tr>
                   <td className="room-name">
-                    <Link href="/museum-heist.html">Museum Heist</Link>
+                    <Link href="/the-gallery-job.html">The Gallery Job</Link>
                   </td>
                   <td>
                     <span className="locks" role="img" aria-label="Difficulty 2 of 5">
@@ -398,14 +393,14 @@ export default function HomePage() {
                   <td>Up to 6</td>
                   <td>First-timers</td>
                   <td>
-                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=museum-heist">
+                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=the-gallery-job">
                       Book Now
                     </Link>
                   </td>
                 </tr>
                 <tr>
                   <td className="room-name">
-                    <Link href="/dining-room-caper.html">Dining Room Caper</Link>
+                    <Link href="/dinner-at-eight.html">Dinner at Eight</Link>
                   </td>
                   <td>
                     <span className="locks" role="img" aria-label="Difficulty 3 of 5">
@@ -429,14 +424,14 @@ export default function HomePage() {
                   <td>Up to 8</td>
                   <td>Groups of 7–8</td>
                   <td>
-                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=dining-room-caper">
+                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=dinner-at-eight">
                       Book Now
                     </Link>
                   </td>
                 </tr>
                 <tr>
                   <td className="room-name">
-                    <Link href="/cabin-in-the-storm.html">Cabin In The Storm</Link>
+                    <Link href="/blackout-cabin.html">Blackout Cabin</Link>
                   </td>
                   <td>
                     <span className="locks" role="img" aria-label="Difficulty 4 of 5">
@@ -460,14 +455,14 @@ export default function HomePage() {
                   <td>Up to 6</td>
                   <td>Escape room veterans</td>
                   <td>
-                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=cabin-in-the-storm">
+                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=blackout-cabin">
                       Book Now
                     </Link>
                   </td>
                 </tr>
                 <tr>
                   <td className="room-name">
-                    <Link href="/triumph-over-evil.html">Triumph Over Evil</Link>
+                    <Link href="/last-stand.html">Last Stand</Link>
                   </td>
                   <td>
                     <span
@@ -480,7 +475,7 @@ export default function HomePage() {
                   <td>Up to 6</td>
                   <td>Flexible — families &amp; mixed groups</td>
                   <td>
-                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=triumph-over-evil">
+                    <Link className="btn btn-primary btn-sm" href="/book-a-game.html?room=last-stand">
                       Book Now
                     </Link>
                   </td>
@@ -512,8 +507,8 @@ export default function HomePage() {
             </div>
             <div className="polaroid tilt-s reveal" style={{ flex: "1" }}>
               <img
-                src="/images/team-bohila-didn-t-escape_orig-sm.webp"
-                alt="Team Bohila — they didn't escape, still smiling"
+                src="/images/team-group_orig-sm.webp"
+                alt="A group who ran out of time, still smiling"
                 loading="lazy"
               />
               <div className="caption">So close… we'll get it next time!</div>
@@ -541,49 +536,24 @@ export default function HomePage() {
                 Great family experience! Challenging and fun!
               </p>
               <blockquote>
-                My family and I (7 people) tried the &quot;Dining Room Caper&quot; room. We had a wonderful time! The
-                puzzles were challenging and surprising and well crafted. Our host, Cameron, was gracious and
-                generous. The facility looks small from the outside, but the space is smartly utilized and decorated.
-                We highly recommend!
+                Seven of us booked Dinner at Eight and had a wonderful time. The puzzles were clever and
+                surprising without ever feeling unfair, and our game master read the room perfectly &mdash; a nudge
+                when we stalled, silence when we were flowing. The space looks small from outside and is used
+                brilliantly. We highly recommend it.
               </blockquote>
-              <div className="who">
-                Spencer{" "}
-                <span>
-                  · Jan 2024 · Family · via{" "}
-                  <a
-                    href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html"
-                    rel="noopener"
-                    style={{ textDecoration: "underline" }}
-                  >
-                    TripAdvisor
-                  </a>
-                </span>
-              </div>
+              <div className="who">Marcus T <span>· Family group</span></div>
             </div>
             <div className="review-card reveal">
               <div className="stars" aria-hidden="true">
                 ★★★★★
               </div>
-              <p style={{ fontWeight: "700", color: "var(--ink)", margin: "0" }}>Family run = better experience</p>
+              <p style={{ fontWeight: "700", color: "var(--ink)", margin: "0" }}>Better than anywhere else we&apos;ve tried</p>
               <blockquote>
-                Booked an escape room to do with several coworkers after a Christmas lunch. Cameron was an amazing
-                game master - you could tell he really wanted to make sure we had a great experience. We had to get
-                more hints than we thought we would, which means it was not easy! Thank you for a great 56 minutes!
-                This was better than other places I&apos;ve been for sure!
+                Booked a room with several co-workers after a long quarter and it was exactly the reset we needed.
+                We took more hints than we&apos;d like to admit, which tells you it isn&apos;t a walkover. Out with
+                four minutes to spare, and everyone was still talking about it days later.
               </blockquote>
-              <div className="who">
-                Rachel D{" "}
-                <span>
-                  · Dec 2023 · via{" "}
-                  <a
-                    href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html"
-                    rel="noopener"
-                    style={{ textDecoration: "underline" }}
-                  >
-                    TripAdvisor
-                  </a>
-                </span>
-              </div>
+              <div className="who">Priya N <span>· Team outing</span></div>
             </div>
           </div>
         </div>
@@ -613,7 +583,7 @@ export default function HomePage() {
             <div style={{ flex: "1", height: "340px", borderRadius: "var(--radius)", overflow: "hidden", marginTop: "24px" }}>
               <img
                 src="/images/groups-birthday-sm.webp"
-                alt="A birthday group at Room to Escape"
+                alt="A birthday group at Cipher & Key"
                 loading="lazy"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
@@ -633,22 +603,22 @@ export default function HomePage() {
       <section className="section-tight section-alt">
         <div className="container" style={{ display: "flex", flexDirection: "column", gap: "18px", maxWidth: "920px" }}>
           <h2 className="section-title">
-            Will you <span className="hl">&quot;escape&quot;</span> Room to Escape?
+            Will you <span className="hl">&quot;escape&quot;</span> Cipher & Key?
           </h2>
           <p style={{ fontSize: "16.5px", lineHeight: "1.7", margin: "0" }}>
-            Room to Escape is Fort Wayne&apos;s premier escape room. Think you can escape a room at Fort
-            Wayne&apos;s Room to Escape? We welcome you to book your escape experience online today. Room to Escape
+            Cipher & Key is Springfield&apos;s premier escape room. Think you can beat the clock in one of
+            Springfield&apos;s toughest rooms? We welcome you to book your escape experience online today. Cipher & Key
             offers its guests thrilling, fun-filled, and themed puzzle rooms! Guests must find hidden clues, solve
             challenges, and secure their escape, all before the 60-minute countdown buzzer! Effortlessly reserve your
-            Fort Wayne escape room for parties, team building, and more!
+            Springfield escape room for parties, team building, and more!
           </p>
           <p style={{ fontSize: "15.5px", lineHeight: "1.7", margin: "0", color: "var(--body)" }}>
             While we do have a schedule, we also have more flexibility than many of our competitors. RTE is a small
             local business with most of its Game Masters living close by. This means that with enough notice we can
             often accommodate off-hour requests for games — including days when we are not normally open. If you are
             interested or have questions about scheduling, it is best to call{" "}
-            <a className="text-link" href="tel:2606938836">
-              260-693-8836
+            <a className="text-link" href="tel:2175550182">
+              (217) 555-0182
             </a>
             .
           </p>
@@ -668,7 +638,7 @@ export default function HomePage() {
             </span>
             <p style={{ fontSize: "15px", margin: "0", color: "var(--ink-soft)" }}>
               We are excited to be awarded <strong>&quot;Editor&apos;s Choice&quot;</strong> among the{" "}
-              <strong>&quot;75+ Fun Things to do in Fort Wayne.&quot;</strong> Come in and check out why!
+              <strong>&quot;75+ Fun Things to do in Springfield.&quot;</strong> Come in and check out why!
             </p>
           </div>
         </div>
@@ -683,8 +653,8 @@ export default function HomePage() {
               </div>
               <p>
                 If you think you&apos;ve got what it takes in the virtual world and want to test your clue-cracking
-                skills in the real world, then Room to Escape is for you. Room To Escape provides sophisticated,
-                high-level Fort Wayne escape room games that will challenge even the most hardcore gamers.
+                skills in the real world, then Cipher & Key is for you. Cipher & Key provides sophisticated,
+                high-level Springfield escape room games that will challenge even the most hardcore gamers.
               </p>
               <p>
                 Crack codes, solve ciphers and decode clues all in under 60 minutes for an immersive experience you
@@ -696,13 +666,13 @@ export default function HomePage() {
                 Friends <span style={{ color: "var(--red)" }}>&amp; Families</span>
               </div>
               <p>
-                One of the best ways to make a memory in Fort Wayne is by doing something out of the box! Whether
+                One of the best ways to make a memory in Springfield is by doing something out of the box! Whether
                 you&apos;re looking for a new adventure with your family, or you&apos;re just tired of staring at
-                screens with your friends, let Room To Escape get you out of your comfort zone.
+                screens with your friends, let Cipher & Key get you out of your comfort zone.
               </p>
               <p>
-                Each of Room to Escape&apos;s themed escape rooms are immersive experiences that will transport you
-                and your family or friends out of Fort Wayne and into an adventure you will never forget.
+                Each of Cipher & Key&apos;s themed escape rooms are immersive experiences that will transport you
+                and your family or friends out of Springfield and into an adventure you will never forget.
               </p>
             </div>
             <div className="step reveal" style={{ background: "var(--bg-alt)" }}>
@@ -710,13 +680,13 @@ export default function HomePage() {
                 Companies <span style={{ color: "var(--red)" }}>&amp; Events</span>
               </div>
               <p>
-                Teamwork makes the dream work, so spend one action-packed hour at Room To Escape solving clues,
+                Teamwork makes the dream work, so spend one action-packed hour at Cipher & Key solving clues,
                 working on puzzles, and communicating in a way you just can&apos;t at the office.
               </p>
               <p>
-                After playing one of our games your team will work together in ways you never thought possible! Room
-                To Escape in Fort Wayne is a great way to build relational equity among co-workers and is much safer
-                than a trust fall exercise.
+                After playing one of our games your team will work together in ways you never thought possible.
+                Cipher & Key in Springfield is a great way to build relational equity among co-workers, and it is
+                much safer than a trust fall exercise.
               </p>
             </div>
           </div>
@@ -727,7 +697,7 @@ export default function HomePage() {
         <div className="container inner">
           <div>
             <div className="title">The clock is already running.</div>
-            <div className="sub">Book online, or call 260-693-8836 — we may be mid-game, so leave a message.</div>
+            <div className="sub">Book online, or call (217) 555-0182 — we may be mid-game, so leave a message.</div>
           </div>
           <Link className="btn btn-dark" href="/book-a-game.html" style={{ fontSize: "17px", padding: "18px 38px" }}>
             Book Now

@@ -2,16 +2,16 @@ import Link from "next/link";
 import RoomSubbar from "@/components/RoomSubbar";
 
 export const metadata = {
-  title: "Cabin In The Storm — Mystery & Puzzle Room: Escape Themes & Challenges - Room to Escape | Fort Wayne Room to Escape",
-  description: "Choose from four epic adventures at the Room to Escape puzzle room experience in Fort Wayne. Themes range from an isolated cabin to a mystery dinner party.",
-  alternates: { canonical: "/cabin-in-the-storm.html" },
+  title: "Blackout Cabin — Mystery & Puzzle Room: Escape Themes & Challenges - Cipher & Key | Springfield Cipher & Key",
+  description: "Blackout Cabin is our toughest 60-minute escape room, for up to 6 players at Cipher & Key in Springfield. Find the coordinates before the storm closes in.",
+  alternates: { canonical: "/blackout-cabin.html" },
   openGraph: {
     type: "website",
-    siteName: "Room to Escape",
-    url: "https://www.roomtoescape.com/cabin-in-the-storm.html",
-    title: "Cabin In The Storm — Room to Escape Fort Wayne",
-    description: "Choose from four epic adventures at the Room to Escape puzzle room experience in Fort Wayne. Themes range from an isolated cabin to a mystery dinner party.",
-    images: "https://www.roomtoescape.com/images/cabin-hero.webp",
+    siteName: "Cipher & Key",
+    url: "https://www.cipherandkey.com/blackout-cabin.html",
+    title: "Blackout Cabin — Cipher & Key Springfield",
+    description: "Blackout Cabin is our toughest 60-minute escape room, for up to 6 players at Cipher & Key in Springfield. Find the coordinates before the storm closes in.",
+    images: "https://www.cipherandkey.com/images/blackout-hero.webp",
   },
   twitter: { card: "summary_large_image" },
 };
@@ -21,20 +21,20 @@ export default function Page_cabin_in_the_storm() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"Cabin In The Storm — Escape Room\",\"description\":\"60-minute escape room for up to 6 players at Room to Escape, Fort Wayne, IN.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Room to Escape\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.95\",\"priceCurrency\":\"USD\",\"url\":\"https://www.roomtoescape.com/book-a-game.html\",\"availability\":\"https://schema.org/InStock\"}}" }}
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"Blackout Cabin — Escape Room\",\"description\":\"60-minute escape room for up to 6 players at Cipher & Key, Springfield, IL.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Cipher & Key\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.95\",\"priceCurrency\":\"USD\",\"url\":\"https://www.cipherandkey.com/book-a-game.html\",\"availability\":\"https://schema.org/InStock\"}}" }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.roomtoescape.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cabin In The Storm\",\"item\":\"https://www.roomtoescape.com/cabin-in-the-storm.html\"}]}" }}
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.cipherandkey.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blackout Cabin\",\"item\":\"https://www.cipherandkey.com/blackout-cabin.html\"}]}" }}
       />
-      <RoomSubbar name="Cabin In The Storm" slug="cabin-in-the-storm" />
+      <RoomSubbar name="Blackout Cabin" slug="blackout-cabin" />
 <section className="room-hero">
-    <img src="/images/cabin-hero.webp" alt="Inside the lantern-lit cabin of the Cabin In The Storm escape room" fetchPriority="high" />
+    <img src="/images/blackout-hero.webp" alt="Inside the lantern-lit cabin of the Blackout Cabin escape room" fetchPriority="high" />
     <div className="scrim"></div>
     <div className="container content">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>things to do in fort wayne</h1>
-      <p className="h1" style={{margin: '0'}}>Cabin In The Storm</p>
+      <h1 className="eyebrow" style={{margin: '0'}}>things to do in springfield</h1>
+      <p className="h1" style={{margin: '0'}}>Blackout Cabin</p>
       <div className="chips">
         <span className="chip">Up to 6 players</span>
         <span className="chip">60 minutes</span>
@@ -57,8 +57,8 @@ export default function Page_cabin_in_the_storm() {
     <div className="container" style={{display: 'flex', gap: '60px'}} data-split>
       <div style={{flex: '1.3', display: 'flex', flexDirection: 'column', gap: '18px'}}>
         <h2 className="section-title">The <span className="hl">story</span></h2>
-        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>You&rsquo;ve been on an adventure with your friends in a vast wilderness. The weather radio you brought along has told you about a sudden but severe thunderstorm moving into the area. The weather service warned that due to hurricane-like winds, no shelter would be enough, and that the area should be immediately evacuated. You know there is no way you and your friends can outrun the storm on foot, so you radio for help.</p>
-        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>The rescuer who answered your call for help says they can retrieve you by helicopter, but only if you can find exact coordinates to your location. You've got about an hour before it will be too dangerous for the helicopter to save you. You remember seeing a cabin not long ago, so you hurry back there and knock on the door. There&rsquo;s no answer, but fortunately, the door is unlocked. Surely you can find coordinates inside.</p>
+        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>The forecast turned while you were still miles from the trailhead. The last thing the radio said before it went dead was that the whole ridge was being evacuated &mdash; winds no shelter out here would stand up to, and no chance of outrunning them on foot.</p>
+        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>Half a mile back there was a cabin. The door is on the latch, nobody is home, and inside there is a woodstove, a wall of hand-drawn maps and a shortwave set that somehow still has power. Rescue can reach you &mdash; but only with a grid reference, a call sign and a window they can fly in. The lantern batteries are your clock.</p>
 
         
         <div className="price-block reveal">
@@ -68,7 +68,7 @@ export default function Page_cabin_in_the_storm() {
         </div>
 
         <div style={{display: 'flex', gap: '14px', marginTop: '10px', flexWrap: 'wrap'}}>
-          <Link className="btn btn-primary" href="/book-a-game.html?room=cabin-in-the-storm">Book Now</Link>
+          <Link className="btn btn-primary" href="/book-a-game.html?room=blackout-cabin">Book Now</Link>
           <Link className="btn btn-outline" href="/index.html#rooms">See all rooms</Link>
         </div>
       </div>
@@ -76,7 +76,7 @@ export default function Page_cabin_in_the_storm() {
         <div className="label" style={{marginBottom: '18px'}}>Good to know</div>
         <div style={{display: 'flex', flexDirection: 'column', gap: '13px', fontSize: '15px', lineHeight: '1.55', color: 'var(--ink-soft)'}}>
           <div><strong style={{color: 'var(--red)'}}>Built for veterans.</strong> High difficulty — our toughest room. Bring your A-team.</div>
-          <div><strong style={{color: 'var(--red)'}}>Book 2 hours ahead</strong> — or call <a className="text-link" href="tel:2606938836">260-693-8836</a> to confirm a game master is available.</div>
+          <div><strong style={{color: 'var(--red)'}}>Book 2 hours ahead</strong> — or call <a className="text-link" href="tel:2175550182">(217) 555-0182</a> to confirm a game master is available.</div>
           <div><strong style={{color: 'var(--red)'}}>Hints included.</strong> Your game master is watching and will nudge you if you get stuck.</div>
         </div>
       </aside>
@@ -88,9 +88,9 @@ export default function Page_cabin_in_the_storm() {
     <div className="container">
       <h2 className="section-title" style={{marginBottom: '26px'}}>Inside the <span className="hl">room</span></h2>
       <div className="gallery reveal">
-        <div><img src="/images/cabin-feature.webp" alt="The cabin interior as the storm hits" loading="lazy" /></div>
-        <div><img src="/images/cabin-gallery-1.webp" alt="The weather radio and maps" loading="lazy" /></div>
-        <div><img src="/images/cabin-gallery-2.webp" alt="A lantern-lit corner of the cabin" loading="lazy" /></div>
+        <div><img src="/images/blackout-feature.webp" alt="The cabin interior as the storm hits" loading="lazy" /></div>
+        <div><img src="/images/blackout-gallery-1.webp" alt="The shortwave set and hand-drawn maps" loading="lazy" /></div>
+        <div><img src="/images/blackout-gallery-2.webp" alt="A lantern-lit corner of the cabin" loading="lazy" /></div>
       </div>
       <p className="section-note" style={{marginTop: '20px'}}>No spoilers — these glimpses are all you get before the clock starts.</p>
     </div>
@@ -111,7 +111,7 @@ export default function Page_cabin_in_the_storm() {
       </div>
       <div style={{flex: '1', minWidth: '280px'}} className="panel panel-dark panel-pad">
         <div className="label" style={{marginBottom: '12px'}}>Not this one?</div>
-        <p style={{fontSize: '15px', lineHeight: '1.65'}}>First room ever? Start gentler with <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/museum-heist.html">Museum Heist</Link> or <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-disappearing-act.html">The Disappearing Act</Link> — then come back for the storm.</p>
+        <p style={{fontSize: '15px', lineHeight: '1.65'}}>First room ever? Start gentler with <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-gallery-job.html">The Gallery Job</Link> or <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-vanishing-hour.html">The Vanishing Hour</Link> — then come back for the storm.</p>
         <Link className="btn btn-outline-dark btn-sm" href="/index.html#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
       </div>
     </div>
@@ -122,21 +122,21 @@ export default function Page_cabin_in_the_storm() {
     <div className="container">
       <h2 className="section-title" style={{marginBottom: '30px'}}>More <span className="hl">rooms</span></h2>
       <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '18px'}} className="more-rooms">
-        <Link className="room-card" href="/the-disappearing-act.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/disappearing-card-sm.webp" alt="The Disappearing Act" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>The Disappearing Act</span></div>
+        <Link className="room-card" href="/the-vanishing-hour.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/vanishing-card-sm.webp" alt="The Vanishing Hour" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>The Vanishing Hour</span></div>
         </Link>
-        <Link className="room-card" href="/dining-room-caper.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/dining-card-sm.webp" alt="Dining Room Caper" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Dining Room Caper</span></div>
+        <Link className="room-card" href="/dinner-at-eight.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/dinner-card-sm.webp" alt="Dinner at Eight" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Dinner at Eight</span></div>
         </Link>
-        <Link className="room-card" href="/museum-heist.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/museum-card-sm.webp" alt="Museum Heist" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Museum Heist</span></div>
+        <Link className="room-card" href="/the-gallery-job.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/gallery-card-sm.webp" alt="The Gallery Job" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>The Gallery Job</span></div>
         </Link>
-        <Link className="room-card" href="/triumph-over-evil.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/triumph-card-sm.webp" alt="Triumph Over Evil" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Triumph Over Evil</span></div>
+        <Link className="room-card" href="/last-stand.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/laststand-card-sm.webp" alt="Last Stand" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Last Stand</span></div>
         </Link>
       </div>
     </div>
@@ -146,7 +146,7 @@ export default function Page_cabin_in_the_storm() {
   <section className="cta-band">
     <div className="container inner">
       <div className="title">The helicopter leaves in one hour.</div>
-      <Link className="btn btn-dark" href="/book-a-game.html?room=cabin-in-the-storm" style={{fontSize: '17px', padding: '18px 38px'}}>Book Now</Link>
+      <Link className="btn btn-dark" href="/book-a-game.html?room=blackout-cabin" style={{fontSize: '17px', padding: '18px 38px'}}>Book Now</Link>
     </div>
   </section>
     </>

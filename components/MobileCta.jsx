@@ -6,8 +6,8 @@ export default function MobileCta() {
       <Link className="book" href="/book-a-game.html">
         Book Now
       </Link>
-      <a className="call" href="tel:2606938836">
-        Call 260-693-8836
+      <a className="call" href="tel:2175550182">
+        Call (217) 555-0182
       </a>
     </div>
   );

@@ -21,7 +21,7 @@ const archivo = Archivo({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.roomtoescape.com"),
+  metadataBase: new URL("https://www.cipherandkey.com"),
   robots: {
     index: false,
     follow: false,
@@ -35,17 +35,17 @@ const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
   additionalType: "https://schema.org/LocalBusiness",
-  name: "Room to Escape",
+  name: "Cipher & Key",
   description:
-    "Fort Wayne escape room with five themed 60-minute games for families, friends and co-workers.",
-  url: "https://www.roomtoescape.com/",
-  telephone: "+1-260-693-8836",
+    "Springfield escape room with five themed 60-minute games for families, friends and co-workers.",
+  url: "https://www.cipherandkey.com/",
+  telephone: "+1-217-555-0182",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "3734 Allen Ave",
-    addressLocality: "Fort Wayne",
-    addressRegion: "IN",
-    postalCode: "46805",
+    streetAddress: "1200 Kestrel Street",
+    addressLocality: "Springfield",
+    addressRegion: "IL",
+    postalCode: "62704",
     addressCountry: "US",
   },
   openingHoursSpecification: [

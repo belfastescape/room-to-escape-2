@@ -2,16 +2,16 @@ import Link from "next/link";
 import RoomSubbar from "@/components/RoomSubbar";
 
 export const metadata = {
-  title: "Dining Room Caper — Fort Wayne Mystery & Puzzle Room: Themes & Challenges - Room to Escape | Fort Wayne Room to Escape",
-  description: "Choose from four epic adventures at the Room to Escape puzzle room experience in Fort Wayne. Themes range from an isolated cabin to a mystery dinner party.",
-  alternates: { canonical: "/dining-room-caper.html" },
+  title: "Dinner at Eight — Springfield Mystery & Puzzle Room: Themes & Challenges - Cipher & Key | Springfield Cipher & Key",
+  description: "Dinner at Eight is a 60-minute murder-mystery escape room for up to 8 players at Cipher & Key in Springfield. Name the killer, the weapon and the room.",
+  alternates: { canonical: "/dinner-at-eight.html" },
   openGraph: {
     type: "website",
-    siteName: "Room to Escape",
-    url: "https://www.roomtoescape.com/dining-room-caper.html",
-    title: "Dining Room Caper — Room to Escape Fort Wayne",
-    description: "Choose from four epic adventures at the Room to Escape puzzle room experience in Fort Wayne. Themes range from an isolated cabin to a mystery dinner party.",
-    images: "https://www.roomtoescape.com/images/dining-hero.webp",
+    siteName: "Cipher & Key",
+    url: "https://www.cipherandkey.com/dinner-at-eight.html",
+    title: "Dinner at Eight — Cipher & Key Springfield",
+    description: "Dinner at Eight is a 60-minute murder-mystery escape room for up to 8 players at Cipher & Key in Springfield. Name the killer, the weapon and the room.",
+    images: "https://www.cipherandkey.com/images/dinner-hero.webp",
   },
   twitter: { card: "summary_large_image" },
 };
@@ -21,20 +21,20 @@ export default function Page_dining_room_caper() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"Dining Room Caper — Escape Room\",\"description\":\"60-minute escape room for up to 8 players at Room to Escape, Fort Wayne, IN.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Room to Escape\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.95\",\"priceCurrency\":\"USD\",\"url\":\"https://www.roomtoescape.com/book-a-game.html\",\"availability\":\"https://schema.org/InStock\"}}" }}
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"Dinner at Eight — Escape Room\",\"description\":\"60-minute escape room for up to 8 players at Cipher & Key, Springfield, IL.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Cipher & Key\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.95\",\"priceCurrency\":\"USD\",\"url\":\"https://www.cipherandkey.com/book-a-game.html\",\"availability\":\"https://schema.org/InStock\"}}" }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.roomtoescape.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Dining Room Caper\",\"item\":\"https://www.roomtoescape.com/dining-room-caper.html\"}]}" }}
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.cipherandkey.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Dinner at Eight\",\"item\":\"https://www.cipherandkey.com/dinner-at-eight.html\"}]}" }}
       />
-      <RoomSubbar name="Dining Room Caper" slug="dining-room-caper" />
+      <RoomSubbar name="Dinner at Eight" slug="dinner-at-eight" />
 <section className="room-hero">
-    <img src="/images/dining-hero.webp" alt="Mr. Morley's formal dining room in the Dining Room Caper escape room" fetchPriority="high" />
+    <img src="/images/dinner-hero.webp" alt="The formal dining room in the Dinner at Eight escape room" fetchPriority="high" />
     <div className="scrim"></div>
     <div className="container content">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>things to do in fort wayne</h1>
-      <p className="h1" style={{margin: '0'}}>Dining Room Caper</p>
+      <h1 className="eyebrow" style={{margin: '0'}}>things to do in springfield</h1>
+      <p className="h1" style={{margin: '0'}}>Dinner at Eight</p>
       <div className="chips">
         <span className="chip">Up to 8 players</span>
         <span className="chip">60 minutes</span>
@@ -57,9 +57,9 @@ export default function Page_dining_room_caper() {
     <div className="container" style={{display: 'flex', gap: '60px'}} data-split>
       <div style={{flex: '1.3', display: 'flex', flexDirection: 'column', gap: '18px'}}>
         <h2 className="section-title">The <span className="hl">story</span></h2>
-        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}><strong>Who killed Mr. Morley?</strong></p>
-        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>Your fellow police officer, Officer Spencer, requested back-up at the huge Morley estate, where a dinner party was taking place tonight. Mr. Morley himself has been killed, and Officer Spencer has gathered all of the dinner guests in the lounge.</p>
-        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>It is your job to sort through the evidence and uncover the identity of the murderer, what weapon was used, and in which room was the crime committed. However, Officer Spencer is unsure how long he can keep all of the suspects together. If the crime is not solved fast enough, the murderer could elude him, and then he or she may be coming after YOU!</p>
+        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}><strong>Eight sat down. Seven are still at the table.</strong></p>
+        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>The host never made it past the study door. The house has been sealed since &mdash; nobody in, nobody out &mdash; and every guest has a version of the evening that does not quite match anyone else's.</p>
+        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>You have been let in to work the scene before the roads clear and the guests scatter. Sift the place settings, the correspondence and the timings until you can name three things: who, with what, and in which room. One of the seven is counting on you running out of time.</p>
 
         
         <div className="price-block reveal">
@@ -69,7 +69,7 @@ export default function Page_dining_room_caper() {
         </div>
 
         <div style={{display: 'flex', gap: '14px', marginTop: '10px', flexWrap: 'wrap'}}>
-          <Link className="btn btn-primary" href="/book-a-game.html?room=dining-room-caper">Book Now</Link>
+          <Link className="btn btn-primary" href="/book-a-game.html?room=dinner-at-eight">Book Now</Link>
           <Link className="btn btn-outline" href="/index.html#rooms">See all rooms</Link>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default function Page_dining_room_caper() {
         <div className="label" style={{marginBottom: '18px'}}>Good to know</div>
         <div style={{display: 'flex', flexDirection: 'column', gap: '13px', fontSize: '15px', lineHeight: '1.55', color: 'var(--ink-soft)'}}>
           <div><strong style={{color: 'var(--red)'}}>A classic whodunit.</strong> Medium difficulty — great for mixed groups, and one of two rooms that takes up to 8 players.</div>
-          <div><strong style={{color: 'var(--red)'}}>Book 2 hours ahead</strong> — or call <a className="text-link" href="tel:2606938836">260-693-8836</a> to confirm a game master is available.</div>
+          <div><strong style={{color: 'var(--red)'}}>Book 2 hours ahead</strong> — or call <a className="text-link" href="tel:2175550182">(217) 555-0182</a> to confirm a game master is available.</div>
           <div><strong style={{color: 'var(--red)'}}>Hints included.</strong> Your game master is watching and will nudge you if you get stuck.</div>
         </div>
       </aside>
@@ -89,9 +89,9 @@ export default function Page_dining_room_caper() {
     <div className="container">
       <h2 className="section-title" style={{marginBottom: '26px'}}>Inside the <span className="hl">room</span></h2>
       <div className="gallery reveal">
-        <div><img src="/images/dining-feature.webp" alt="The set dining table at the Morley estate" loading="lazy" /></div>
-        <div><img src="/images/dining-gallery-1.webp" alt="Evidence gathered from the dinner party" loading="lazy" /></div>
-        <div><img src="/images/dining-gallery-2.webp" alt="Details of the Morley estate dining room" loading="lazy" /></div>
+        <div><img src="/images/dinner-feature.webp" alt="The dining table, still laid for eight" loading="lazy" /></div>
+        <div><img src="/images/dinner-gallery-1.webp" alt="Evidence gathered from the dinner party" loading="lazy" /></div>
+        <div><img src="/images/dinner-gallery-2.webp" alt="Details of the sealed dining room" loading="lazy" /></div>
       </div>
       <p className="section-note" style={{marginTop: '20px'}}>No spoilers — these glimpses are all you get before the clock starts.</p>
     </div>
@@ -112,7 +112,7 @@ export default function Page_dining_room_caper() {
       </div>
       <div style={{flex: '1', minWidth: '280px'}} className="panel panel-dark panel-pad">
         <div className="label" style={{marginBottom: '12px'}}>Not this one?</div>
-        <p style={{fontSize: '15px', lineHeight: '1.65'}}>Prefer magic over murder? Try <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-disappearing-act.html">The Disappearing Act</Link>. Veterans should take on <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/cabin-in-the-storm.html">Cabin In The Storm</Link>.</p>
+        <p style={{fontSize: '15px', lineHeight: '1.65'}}>Prefer magic over murder? Try <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-vanishing-hour.html">The Vanishing Hour</Link>. Veterans should take on <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/blackout-cabin.html">Blackout Cabin</Link>.</p>
         <Link className="btn btn-outline-dark btn-sm" href="/index.html#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
       </div>
     </div>
@@ -123,21 +123,21 @@ export default function Page_dining_room_caper() {
     <div className="container">
       <h2 className="section-title" style={{marginBottom: '30px'}}>More <span className="hl">rooms</span></h2>
       <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '18px'}} className="more-rooms">
-        <Link className="room-card" href="/cabin-in-the-storm.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/cabin-card-sm.webp" alt="Cabin In The Storm" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Cabin In The Storm</span></div>
+        <Link className="room-card" href="/blackout-cabin.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/blackout-card-sm.webp" alt="Blackout Cabin" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Blackout Cabin</span></div>
         </Link>
-        <Link className="room-card" href="/the-disappearing-act.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/disappearing-card-sm.webp" alt="The Disappearing Act" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>The Disappearing Act</span></div>
+        <Link className="room-card" href="/the-vanishing-hour.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/vanishing-card-sm.webp" alt="The Vanishing Hour" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>The Vanishing Hour</span></div>
         </Link>
-        <Link className="room-card" href="/museum-heist.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/museum-card-sm.webp" alt="Museum Heist" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Museum Heist</span></div>
+        <Link className="room-card" href="/the-gallery-job.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/gallery-card-sm.webp" alt="The Gallery Job" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>The Gallery Job</span></div>
         </Link>
-        <Link className="room-card" href="/triumph-over-evil.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/triumph-card-sm.webp" alt="Triumph Over Evil" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Triumph Over Evil</span></div>
+        <Link className="room-card" href="/last-stand.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/laststand-card-sm.webp" alt="Last Stand" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Last Stand</span></div>
         </Link>
       </div>
     </div>
@@ -147,7 +147,7 @@ export default function Page_dining_room_caper() {
   <section className="cta-band">
     <div className="container inner">
       <div className="title">The suspects won't wait forever.</div>
-      <Link className="btn btn-dark" href="/book-a-game.html?room=dining-room-caper" style={{fontSize: '17px', padding: '18px 38px'}}>Book Now</Link>
+      <Link className="btn btn-dark" href="/book-a-game.html?room=dinner-at-eight" style={{fontSize: '17px', padding: '18px 38px'}}>Book Now</Link>
     </div>
   </section>
     </>

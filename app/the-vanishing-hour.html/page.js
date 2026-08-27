@@ -2,16 +2,16 @@ import Link from "next/link";
 import RoomSubbar from "@/components/RoomSubbar";
 
 export const metadata = {
-  title: "The Disappearing Act — Fort Wayne Mystery & Puzzle Room: Escape Themes & Challenges - Room to Escape | Fort Wayne Room to Escape",
-  description: "Choose from four epic adventures at the Room to Escape puzzle room experience in Fort Wayne. Themes range from an isolated cabin to a mystery dinner party.",
-  alternates: { canonical: "/the-disappearing-act.html" },
+  title: "The Vanishing Hour — Springfield Mystery & Puzzle Room: Escape Themes & Challenges - Cipher & Key | Springfield Cipher & Key",
+  description: "The Vanishing Hour is a 60-minute escape room for up to 8 players at Cipher & Key in Springfield. A dark theatre, an unfinished illusion, and one hour before the curtain.",
+  alternates: { canonical: "/the-vanishing-hour.html" },
   openGraph: {
     type: "website",
-    siteName: "Room to Escape",
-    url: "https://www.roomtoescape.com/the-disappearing-act.html",
-    title: "The Disappearing Act — Room to Escape Fort Wayne",
-    description: "Choose from four epic adventures at the Room to Escape puzzle room experience in Fort Wayne. Themes range from an isolated cabin to a mystery dinner party.",
-    images: "https://www.roomtoescape.com/images/disappearing-hero.webp",
+    siteName: "Cipher & Key",
+    url: "https://www.cipherandkey.com/the-vanishing-hour.html",
+    title: "The Vanishing Hour — Cipher & Key Springfield",
+    description: "The Vanishing Hour is a 60-minute escape room for up to 8 players at Cipher & Key in Springfield. A dark theatre, an unfinished illusion, and one hour before the curtain.",
+    images: "https://www.cipherandkey.com/images/vanishing-hero.webp",
   },
   twitter: { card: "summary_large_image" },
 };
@@ -21,20 +21,20 @@ export default function Page_the_disappearing_act() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"The Disappearing Act — Escape Room\",\"description\":\"60-minute escape room for up to 8 players at Room to Escape, Fort Wayne, IN.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Room to Escape\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.95\",\"priceCurrency\":\"USD\",\"url\":\"https://www.roomtoescape.com/book-a-game.html\",\"availability\":\"https://schema.org/InStock\"}}" }}
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"The Vanishing Hour — Escape Room\",\"description\":\"60-minute escape room for up to 8 players at Cipher & Key, Springfield, IL.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Cipher & Key\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.95\",\"priceCurrency\":\"USD\",\"url\":\"https://www.cipherandkey.com/book-a-game.html\",\"availability\":\"https://schema.org/InStock\"}}" }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.roomtoescape.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Disappearing Act\",\"item\":\"https://www.roomtoescape.com/the-disappearing-act.html\"}]}" }}
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.cipherandkey.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Vanishing Hour\",\"item\":\"https://www.cipherandkey.com/the-vanishing-hour.html\"}]}" }}
       />
-      <RoomSubbar name="The Disappearing Act" slug="the-disappearing-act" />
+      <RoomSubbar name="The Vanishing Hour" slug="the-vanishing-hour" />
 <section className="room-hero">
-    <img src="/images/disappearing-hero.webp" alt="The magician's stage inside The Disappearing Act escape room" fetchPriority="high" />
+    <img src="/images/vanishing-hero.webp" alt="The empty stage inside The Vanishing Hour escape room" fetchPriority="high" />
     <div className="scrim"></div>
     <div className="container content">
       
       <h1 className="eyebrow" style={{margin: '0'}}>Mystery &amp; Puzzles</h1>
-      <p className="h1" style={{margin: '0'}}>The Disappearing Act</p>
+      <p className="h1" style={{margin: '0'}}>The Vanishing Hour</p>
       <div className="chips">
         <span className="chip">Up to 8 players</span>
         <span className="chip">60 minutes</span>
@@ -57,7 +57,7 @@ export default function Page_the_disappearing_act() {
     <div className="container" style={{display: 'flex', gap: '60px'}} data-split>
       <div style={{flex: '1.3', display: 'flex', flexDirection: 'column', gap: '18px'}}>
         <h2 className="section-title">The <span className="hl">story</span></h2>
-        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>It's your big night out on the town and you've decided to watch the notorious magic show: The Disappearing Act. You arrive early and notice no one is around. You decide to sneak backstage and take a look. Suddenly the stage manager stops you! She seems frantic and tells you that the magician is missing. She recruits you to help find the magician but you must hurry since the show starts in 1 hour!</p>
+        <p style={{fontSize: '17.5px', lineHeight: '1.75', color: 'var(--ink-soft)', textWrap: 'pretty', margin: '0'}}>The Marquee has been dark for years. Tonight it reopens for one performance only, and you have talked your way in early for a look behind the curtain. The stage door is unlocked. Nobody answers. On the props table there is a programme dated tonight &mdash; and beside it, ticket stubs from the closing show decades ago.</p>
 
         
         <div className="price-block reveal">
@@ -67,7 +67,7 @@ export default function Page_the_disappearing_act() {
         </div>
 
         <div style={{display: 'flex', gap: '14px', marginTop: '10px', flexWrap: 'wrap'}}>
-          <Link className="btn btn-primary" href="/book-a-game.html?room=the-disappearing-act">Book Now</Link>
+          <Link className="btn btn-primary" href="/book-a-game.html?room=the-vanishing-hour">Book Now</Link>
           <Link className="btn btn-outline" href="/index.html#rooms">See all rooms</Link>
         </div>
       </div>
@@ -75,7 +75,7 @@ export default function Page_the_disappearing_act() {
         <div className="label" style={{marginBottom: '18px'}}>Good to know</div>
         <div style={{display: 'flex', flexDirection: 'column', gap: '13px', fontSize: '15px', lineHeight: '1.55', color: 'var(--ink-soft)'}}>
           <div><strong style={{color: 'var(--red)'}}>Great first room.</strong> Low difficulty makes it perfect for new players and younger groups.</div>
-          <div><strong style={{color: 'var(--red)'}}>Book 2 hours ahead</strong> — or call <a className="text-link" href="tel:2606938836">260-693-8836</a> to confirm a game master is available.</div>
+          <div><strong style={{color: 'var(--red)'}}>Book 2 hours ahead</strong> — or call <a className="text-link" href="tel:2175550182">(217) 555-0182</a> to confirm a game master is available.</div>
           <div><strong style={{color: 'var(--red)'}}>Hints included.</strong> Your game master is watching and will nudge you if you get stuck.</div>
         </div>
       </aside>
@@ -87,9 +87,9 @@ export default function Page_the_disappearing_act() {
     <div className="container">
       <h2 className="section-title" style={{marginBottom: '26px'}}>Inside the <span className="hl">room</span></h2>
       <div className="gallery reveal">
-        <div><img src="/images/disappearing-feature.webp" alt="The stage set of The Disappearing Act" loading="lazy" /></div>
-        <div><img src="/images/disappearing-gallery-1.webp" alt="Props inside The Disappearing Act" loading="lazy" /></div>
-        <div><img src="/images/disappearing-gallery-2.webp" alt="The magician's dressing table" loading="lazy" /></div>
+        <div><img src="/images/vanishing-feature.webp" alt="The stage set of The Vanishing Hour" loading="lazy" /></div>
+        <div><img src="/images/vanishing-gallery-1.webp" alt="Props waiting in the wings" loading="lazy" /></div>
+        <div><img src="/images/vanishing-gallery-2.webp" alt="The illusionist's dressing table" loading="lazy" /></div>
       </div>
       <p className="section-note" style={{marginTop: '20px'}}>No spoilers — what's behind the curtain stays behind the curtain.</p>
     </div>
@@ -110,7 +110,7 @@ export default function Page_the_disappearing_act() {
       </div>
       <div style={{flex: '1', minWidth: '280px'}} className="panel panel-dark panel-pad">
         <div className="label" style={{marginBottom: '12px'}}>Not this one?</div>
-        <p style={{fontSize: '15px', lineHeight: '1.65'}}>Compare all five rooms by difficulty, group size and vibe — first-timers usually love this room or <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/museum-heist.html">Museum Heist</Link>; veterans should try <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/cabin-in-the-storm.html">Cabin In The Storm</Link>.</p>
+        <p style={{fontSize: '15px', lineHeight: '1.65'}}>Compare all five rooms by difficulty, group size and vibe — first-timers usually love this room or <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-gallery-job.html">The Gallery Job</Link>; veterans should try <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/blackout-cabin.html">Blackout Cabin</Link>.</p>
         <Link className="btn btn-outline-dark btn-sm" href="/index.html#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
       </div>
     </div>
@@ -121,21 +121,21 @@ export default function Page_the_disappearing_act() {
     <div className="container">
       <h2 className="section-title" style={{marginBottom: '30px'}}>More <span className="hl">rooms</span></h2>
       <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '18px'}} className="more-rooms">
-        <Link className="room-card" href="/cabin-in-the-storm.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/cabin-card-sm.webp" alt="Cabin In The Storm" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Cabin In The Storm</span></div>
+        <Link className="room-card" href="/blackout-cabin.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/blackout-card-sm.webp" alt="Blackout Cabin" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Blackout Cabin</span></div>
         </Link>
-        <Link className="room-card" href="/dining-room-caper.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/dining-card-sm.webp" alt="Dining Room Caper" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Dining Room Caper</span></div>
+        <Link className="room-card" href="/dinner-at-eight.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/dinner-card-sm.webp" alt="Dinner at Eight" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Dinner at Eight</span></div>
         </Link>
-        <Link className="room-card" href="/museum-heist.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/museum-card-sm.webp" alt="Museum Heist" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Museum Heist</span></div>
+        <Link className="room-card" href="/the-gallery-job.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/gallery-card-sm.webp" alt="The Gallery Job" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>The Gallery Job</span></div>
         </Link>
-        <Link className="room-card" href="/triumph-over-evil.html">
-          <div className="thumb" style={{height: '150px'}}><img src="/images/triumph-card-sm.webp" alt="Triumph Over Evil" loading="lazy" /></div>
-          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Triumph Over Evil</span></div>
+        <Link className="room-card" href="/last-stand.html">
+          <div className="thumb" style={{height: '150px'}}><img src="/images/laststand-card-sm.webp" alt="Last Stand" loading="lazy" /></div>
+          <div className="body" style={{padding: '16px 18px 18px'}}><span className="name" style={{fontSize: '18px'}}>Last Stand</span></div>
         </Link>
       </div>
     </div>
@@ -144,8 +144,8 @@ export default function Page_the_disappearing_act() {
   
   <section className="cta-band">
     <div className="container inner">
-      <div className="title">The show starts in one hour.</div>
-      <Link className="btn btn-dark" href="/book-a-game.html?room=the-disappearing-act" style={{fontSize: '17px', padding: '18px 38px'}}>Book Now</Link>
+      <div className="title">The curtain goes up in one hour.</div>
+      <Link className="btn btn-dark" href="/book-a-game.html?room=the-vanishing-hour" style={{fontSize: '17px', padding: '18px 38px'}}>Book Now</Link>
     </div>
   </section>
     </>

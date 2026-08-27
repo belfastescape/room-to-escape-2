@@ -19,53 +19,53 @@ export default function NotFoundContent() {
       <section className="section-tight section-alt">
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "18px" }} className="post-grid">
-            <Link className="room-card" href="/the-disappearing-act.html">
+            <Link className="room-card" href="/the-vanishing-hour.html">
               <div className="thumb" style={{ height: "150px" }}>
-                <img src="/images/disappearing-card-sm.webp" alt="The Disappearing Act" loading="lazy" />
+                <img src="/images/vanishing-card-sm.webp" alt="The Vanishing Hour" loading="lazy" />
               </div>
               <div className="body" style={{ padding: "16px 18px 18px" }}>
                 <span className="name" style={{ fontSize: "18px" }}>
-                  The Disappearing Act
+                  The Vanishing Hour
                 </span>
               </div>
             </Link>
-            <Link className="room-card" href="/cabin-in-the-storm.html">
+            <Link className="room-card" href="/blackout-cabin.html">
               <div className="thumb" style={{ height: "150px" }}>
-                <img src="/images/cabin-card-sm.webp" alt="Cabin In The Storm" loading="lazy" />
+                <img src="/images/blackout-card-sm.webp" alt="Blackout Cabin" loading="lazy" />
               </div>
               <div className="body" style={{ padding: "16px 18px 18px" }}>
                 <span className="name" style={{ fontSize: "18px" }}>
-                  Cabin In The Storm
+                  Blackout Cabin
                 </span>
               </div>
             </Link>
-            <Link className="room-card" href="/dining-room-caper.html">
+            <Link className="room-card" href="/dinner-at-eight.html">
               <div className="thumb" style={{ height: "150px" }}>
-                <img src="/images/dining-card-sm.webp" alt="Dining Room Caper" loading="lazy" />
+                <img src="/images/dinner-card-sm.webp" alt="Dinner at Eight" loading="lazy" />
               </div>
               <div className="body" style={{ padding: "16px 18px 18px" }}>
                 <span className="name" style={{ fontSize: "18px" }}>
-                  Dining Room Caper
+                  Dinner at Eight
                 </span>
               </div>
             </Link>
-            <Link className="room-card" href="/museum-heist.html">
+            <Link className="room-card" href="/the-gallery-job.html">
               <div className="thumb" style={{ height: "150px" }}>
-                <img src="/images/museum-card-sm.webp" alt="Museum Heist" loading="lazy" />
+                <img src="/images/gallery-card-sm.webp" alt="The Gallery Job" loading="lazy" />
               </div>
               <div className="body" style={{ padding: "16px 18px 18px" }}>
                 <span className="name" style={{ fontSize: "18px" }}>
-                  Museum Heist
+                  The Gallery Job
                 </span>
               </div>
             </Link>
-            <Link className="room-card" href="/triumph-over-evil.html">
+            <Link className="room-card" href="/last-stand.html">
               <div className="thumb" style={{ height: "150px" }}>
-                <img src="/images/triumph-card-sm.webp" alt="Triumph Over Evil" loading="lazy" />
+                <img src="/images/laststand-card-sm.webp" alt="Last Stand" loading="lazy" />
               </div>
               <div className="body" style={{ padding: "16px 18px 18px" }}>
                 <span className="name" style={{ fontSize: "18px" }}>
-                  Triumph Over Evil
+                  Last Stand
                 </span>
               </div>
             </Link>
@@ -82,7 +82,7 @@ export default function NotFoundContent() {
         <div className="container inner">
           <div>
             <div className="title">The clock is already running.</div>
-            <div className="sub">Book online, or call 260-693-8836 — we may be mid-game, so leave a message.</div>
+            <div className="sub">Book online, or call (217) 555-0182 — we may be mid-game, so leave a message.</div>
           </div>
           <Link className="btn btn-dark" href="/book-a-game.html" style={{ fontSize: "17px", padding: "18px 38px" }}>
             Book Now

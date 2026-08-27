@@ -1,16 +1,16 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Book a Game | Escape Room - Room to Escape | Fort Wayne Room to Escape",
-  description: "Whether it's a birthday party, corporate event, or a fun night out, our four escape rooms in Fort Wayne are available for booking 6 days a week.",
+  title: "Book a Game | Escape Room - Cipher & Key | Springfield Cipher & Key",
+  description: "Whether it's a birthday party, corporate event, or a fun night out, our four escape rooms in Springfield are available for booking 6 days a week.",
   alternates: { canonical: "/book-a-game.html" },
   openGraph: {
     type: "website",
-    siteName: "Room to Escape",
-    url: "https://www.roomtoescape.com/book-a-game.html",
-    title: "Book a Game — Room to Escape Fort Wayne",
-    description: "Whether it's a birthday party, corporate event, or a fun night out, our four escape rooms in Fort Wayne are available for booking 6 days a week.",
-    images: "https://www.roomtoescape.com/images/home-hero.webp",
+    siteName: "Cipher & Key",
+    url: "https://www.cipherandkey.com/book-a-game.html",
+    title: "Book a Game — Cipher & Key Springfield",
+    description: "Whether it's a birthday party, corporate event, or a fun night out, our four escape rooms in Springfield are available for booking 6 days a week.",
+    images: "https://www.cipherandkey.com/images/home-hero.webp",
   },
   twitter: { card: "summary_large_image" },
 };
@@ -21,16 +21,16 @@ export default function Page_book_a_game() {
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>escape room in fort wayne</h1>
+      <h1 className="eyebrow" style={{margin: '0'}}>escape room in springfield</h1>
       <p className="h1" style={{margin: '0'}}>Book A Game</p>
       <p className="lede" style={{margin: '0'}}>Pick your room. Pick your time. Done. Are you ready for thrilling, exciting, non-stop, adrenaline pumping action? Our rooms are perfect for first-time guests and for the hardened escape artist veteran.</p>
       <div style={{display: 'flex', gap: '26px', flexWrap: 'wrap', alignItems: 'center', marginTop: '6px', fontSize: '14.5px', color: 'var(--on-dark)'}}>
-        <span>Questions? Call <a href="tel:2606938836" style={{color: 'var(--red-bright)', fontWeight: '700'}}>260-693-8836</a></span>
+        <span>Questions? Call <a href="tel:2175550182" style={{color: 'var(--red-bright)', fontWeight: '700'}}>(217) 555-0182</a></span>
         <span>Tue–Thu 11–7 · Fri &amp; Sat 11–9</span>
         <span className="rating-badge" style={{color: 'var(--on-dark)'}}>
           <span className="stars" aria-hidden="true">★★★★★</span>
           
-          <a href="https://www.tripadvisor.com/Attraction_Review-g37014-d10360118-Reviews-Room_to_Escape-Fort_Wayne_Indiana.html" rel="noopener" style={{color: 'var(--on-dark)'}}>5.0/5.0 TripAdvisor reviews</a>
+          <span>4.9 average player rating</span>
         </span>
       </div>
     </div>
@@ -50,18 +50,16 @@ export default function Page_book_a_game() {
 
         
         <div className="notice">
-          <strong>Please note:</strong> to book a game you must book two hours before the start of the game, or call us at <a className="text-link" href="tel:2606938836">260-693-8836</a> to confirm a game master is available to run the game.
+          <strong>Please note:</strong> to book a game you must book two hours before the start of the game, or call us at <a className="text-link" href="tel:2175550182">(217) 555-0182</a> to confirm a game master is available to run the game.
         </div>
 
         
         <div className="widget-shell">
-          <div className="widget-skeleton" aria-hidden="true">
+          <div className="widget-skeleton" style={{display: 'flex'}}>
             <div className="clock">60</div>
-            <div className="t">Loading the booking calendar…</div>
-            <div className="shimmer"></div>
-            <div className="shimmer" style={{width: 'min(320px,60%)'}}></div>
+            <div className="t">Booking calendar</div>
+            <p style={{fontSize: '15px', lineHeight: '1.6', maxWidth: '420px', textAlign: 'center', margin: '0'}}>This is where the live booking system is embedded. On a demonstration build the calendar is not connected.</p>
           </div>
-          <iframe src="https://roomtoescape.resova.us/widget" title="Room to Escape booking calendar" loading="lazy"></iframe>
         </div>
 
         
@@ -84,7 +82,7 @@ export default function Page_book_a_game() {
         </div>
 
         
-        <p style={{fontSize: '15px', lineHeight: '1.7', color: 'var(--body)', margin: '6px 4px 0'}}>Room to Escape rooms in Fort Wayne are designed for many room escape enthusiasts. Perfect for first-time guests or for the hardened escape artist veteran. Book today to reserve your spot in one of our themed rooms. Ideal for birthday parties, youth group activity, bachelor party, bachelorette party, corporate outing, date nights, anniversaries, family gatherings. Working together is your "key" to escaping and claiming victory.</p>
+        <p style={{fontSize: '15px', lineHeight: '1.7', color: 'var(--body)', margin: '6px 4px 0'}}>Cipher & Key rooms in Springfield are designed for many room escape enthusiasts. Perfect for first-time guests or for the hardened escape artist veteran. Book today to reserve your spot in one of our themed rooms. Ideal for birthday parties, youth group activity, bachelor party, bachelorette party, corporate outing, date nights, anniversaries, family gatherings. Working together is your "key" to escaping and claiming victory.</p>
       </div>
 
       
@@ -100,8 +98,8 @@ export default function Page_book_a_game() {
         </div>
         <div className="panel panel-dark panel-pad" style={{display: 'flex', flexDirection: 'column', gap: '12px'}}>
           <div className="label">Find us</div>
-          <div style={{fontSize: '15px', lineHeight: '1.7'}}>Room To Escape<br />3734 Allen Ave, Fort Wayne, IN 46805</div>
-          <div style={{fontSize: '15px'}}>Questions? Call <a href="tel:2606938836" style={{color: 'var(--red-bright)', fontWeight: '700'}}>260-693-8836</a></div>
+          <div style={{fontSize: '15px', lineHeight: '1.7'}}>Cipher & Key<br />1200 Kestrel Street, Springfield, IL 62704</div>
+          <div style={{fontSize: '15px'}}>Questions? Call <a href="tel:2175550182" style={{color: 'var(--red-bright)', fontWeight: '700'}}>(217) 555-0182</a></div>
           <hr />
           <div style={{fontSize: '14px', lineHeight: '1.8'}}>Tue–Thu · 11:00–7:00<br />Fri · 11:00–9:00<br />Sat · 11:00–9:00<br /><span style={{color: 'var(--muted)', fontSize: '13px'}}>Last games begin 1 hour before closing.</span></div>
         </div>
