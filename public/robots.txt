@@ -1,2 +1,4 @@
+# Allow crawling so bots can see the noindex robots meta / X-Robots-Tag.
+# Disallow: / would hide those tags and URLs could still appear in search.
 User-agent: *
-Disallow: /
+Allow: /

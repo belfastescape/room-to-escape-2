@@ -8,9 +8,7 @@ export default function NotFoundContent() {
           <p className="eyebrow" style={{ margin: "0" }}>
             404 — page not found
           </p>
-          <p className="h1" style={{ margin: "0" }}>
-            This page escaped.
-          </p>
+          <h1 style={{ margin: "0" }}>This page escaped.</h1>
           <p className="lede" style={{ margin: "0" }}>
             Nicely done, page. For everyone else, the way out is below — five rooms and the booking calendar.
           </p>

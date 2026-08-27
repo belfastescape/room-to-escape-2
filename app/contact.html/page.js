@@ -1,7 +1,8 @@
 import Link from "next/link";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Try an Escape Room Challenge in Springfield for Parties & More - Cipher & Key | Springfield Cipher & Key",
+  title: "Contact Us — Cipher & Key",
   description: "Do you have questions about our escape room challenges in Springfield? Contact us via online form or give us a call at (217) 555-0182. Or, book online!",
   alternates: { canonical: "/contact.html" },
   openGraph: {
@@ -22,7 +23,7 @@ export default function Page_contact() {
     <div className="container stack">
       <p className="eyebrow" style={{margin: '0'}}>We're happy to help</p>
       
-      <h1>Escape Room Contact Us</h1>
+      <h1>Contact Us</h1>
       <p className="lede" style={{margin: '0'}}>Questions about rooms, group sizes or events? Check the <Link href="/faq.html" style={{color: 'var(--red-bright)', fontWeight: '700'}}>FAQ</Link> first — then drop us a line or give us a call.</p>
     </div>
   </section>
@@ -37,37 +38,7 @@ export default function Page_contact() {
           <p style={{fontSize: '13.5px', color: 'var(--muted)', margin: '6px 0 0'}}>This is a request for info only, not an actual booking. Fields marked * are required.</p>
         </div>
         
-        <form method="post" action="#" className="contact-form" style={{display: 'flex', flexDirection: 'column', gap: '18px'}}>
-          <div className="form-grid">
-            <div className="field">
-              <label htmlFor="cf-first">First name *</label>
-              <input id="cf-first" name="first_name" required placeholder="First" autoComplete="given-name" />
-            </div>
-            <div className="field">
-              <label htmlFor="cf-last">Last name *</label>
-              <input id="cf-last" name="last_name" required placeholder="Last" autoComplete="family-name" />
-            </div>
-            <div className="field">
-              <label htmlFor="cf-email">Email *</label>
-              <input id="cf-email" name="email" type="email" required placeholder="you@example.com" autoComplete="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="cf-phone">Phone number *</label>
-              <input id="cf-phone" name="phone" type="tel" required placeholder="(260) 555-0123" autoComplete="tel" />
-            </div>
-          </div>
-          <div className="field">
-            <label htmlFor="cf-company">Company (if applicable)</label>
-            <input id="cf-company" name="company" placeholder="Company name" autoComplete="organization" />
-          </div>
-          <div className="field">
-            <label htmlFor="cf-comment">Comment *</label>
-            <textarea id="cf-comment" name="comment" rows="5" required placeholder="How can we help?"></textarea>
-          </div>
-          <div>
-            <button type="submit" className="btn btn-primary">Submit</button>
-          </div>
-        </form>
+        <ContactForm />
       </div>
 
       

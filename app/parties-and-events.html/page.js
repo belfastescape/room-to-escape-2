@@ -1,7 +1,8 @@
 import Link from "next/link";
+import EventEnquiryForm from "@/components/EventEnquiryForm";
 
 export const metadata = {
-  title: "Cipher & Key Game | Parties and Events - Cipher & Key | Springfield Cipher & Key",
+  title: "Parties and Events — Cipher & Key",
   description: "Find out why Cipher & Key is one of the top things to do in Springfield! Book our escape rooms for birthday parties, celebrations and corporate teambuilding.",
   alternates: { canonical: "/parties-and-events.html" },
   openGraph: {
@@ -21,8 +22,8 @@ export default function Page_parties_and_events() {
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>things to do in springfield</h1>
-      <p className="h1" style={{margin: '0'}}>Parties and Events</p>
+      <p className="eyebrow" style={{margin: '0'}}>things to do in springfield</p>
+      <h1 style={{margin: '0'}}>Parties and Events</h1>
       <p className="lede" style={{margin: '0'}}>Birthdays, corporate teams, youth groups, reunions — we set up, we clean up, and we provide the entertainment.</p>
     </div>
   </section>
@@ -36,7 +37,7 @@ export default function Page_parties_and_events() {
         <p style={{fontSize: '16px', lineHeight: '1.7', margin: '0'}}><strong style={{color: 'var(--ink)'}}>#1 Reason to Book With Us: We make it easy.</strong> We set up, we clean up, and we provide the entertainment. All you have to do is show up! From beginning to end, the friendly staff at Cipher & Key will be here to help you and your guests have a great time.</p>
         <p style={{fontSize: '16px', lineHeight: '1.7', margin: '0'}}>Cipher & Key is an "all-ages" venue. Our escape experiences are kid-friendly, teen-approved, and they're also loads of fun for the grown-ups. Although most of our guests are adults, we welcome kids, too. Our escape experiences are recommended for kids 12 and up but we can also plan activities for younger children.</p>
         <p style={{fontSize: '16px', lineHeight: '1.7', margin: '0'}}>You can choose from several themes. Does the guest of honor like murder mysteries? Our <Link className="text-link" href="/dinner-at-eight.html">Dinner at Eight</Link> might be the perfect fit. If they are into magic, <Link className="text-link" href="/the-vanishing-hour.html">the Vanishing Hour</Link> is great fun.</p>
-        <p style={{fontSize: '16px', lineHeight: '1.7', margin: '0'}}>We can accommodate parties of various sizes. You can book an experience for 2 or book the whole room for 12. Larger groups of up to 24 can book two rooms for a friendly competition. You can even book a "party for one." We'll make it happen!</p>
+        <p style={{fontSize: '16px', lineHeight: '1.7', margin: '0'}}>We can accommodate parties of various sizes. Rooms hold up to 6 or 8 players depending on the game. Larger groups of up to 24 can book two rooms for a friendly competition. You can even book a "party for one." We'll make it happen!</p>
         <p style={{fontSize: '16px', lineHeight: '1.7', margin: '0'}}>We photograph each group at the end of an escape experience or event and the downloadable photo is yours to save or print.</p>
       </div>
       <div style={{width: '440px', flexShrink: '0', display: 'flex', flexDirection: 'column', gap: '16px'}}>
@@ -87,26 +88,7 @@ export default function Page_parties_and_events() {
           <p style={{fontSize: '13.5px', color: 'var(--muted)', margin: '6px 0 0'}}>Tell us the basics and our event planner will get back to you. This is an enquiry, not a booking.</p>
         </div>
         
-        <form method="post" action="#" style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
-          <div className="form-grid">
-            <div className="field"><label htmlFor="ev-name">Name *</label><input id="ev-name" name="name" required placeholder="Your name" /></div>
-            <div className="field"><label htmlFor="ev-email">Email *</label><input id="ev-email" name="email" type="email" required placeholder="you@example.com" /></div>
-            <div className="field"><label htmlFor="ev-phone">Phone</label><input id="ev-phone" name="phone" type="tel" placeholder="(260) 555-0123" /></div>
-            <div className="field"><label htmlFor="ev-date">Preferred date</label><input id="ev-date" name="date" type="date" /></div>
-            <div className="field"><label htmlFor="ev-size">Group size *</label>
-              <select id="ev-size" name="group_size" required>
-                <option value="">Select…</option><option>2–3</option><option>4–6</option><option>7–8</option><option>9–12</option><option>13–24</option><option>25+ / full facility</option>
-              </select>
-            </div>
-            <div className="field"><label htmlFor="ev-occasion">Occasion *</label>
-              <select id="ev-occasion" name="occasion" required>
-                <option value="">Select…</option><option>Birthday</option><option>Corporate / team building</option><option>Youth or church group</option><option>Bachelor / bachelorette</option><option>Reunion</option><option>Other</option>
-              </select>
-            </div>
-          </div>
-          <div className="field"><label htmlFor="ev-notes">Anything else?</label><textarea id="ev-notes" name="notes" rows="3" placeholder="Tell us about your group"></textarea></div>
-          <div><button type="submit" className="btn btn-primary">Send enquiry</button></div>
-        </form>
+        <EventEnquiryForm />
       </div>
     </div>
   </section>

@@ -53,6 +53,7 @@ export default function Footer() {
             <div className="links">
               <Link href="/book-a-game.html">Book a Game</Link>
               <Link href="/parties-and-events.html">Parties &amp; Events</Link>
+              <Link href="/events.html">Events</Link>
               <Link href="/faq.html">FAQ</Link>
               <Link href="/reviews.html">Reviews</Link>
               <Link href="/contact.html">Contact</Link>

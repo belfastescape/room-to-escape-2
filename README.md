@@ -14,12 +14,14 @@ A Next.js (App Router) escape room website built as a **portfolio example**.
   `app/layout.js` renders the shared `Header`/`Footer`/`MobileCta`/`ScrollEffects`
   around every page and loads the fonts via `next/font/google`.
 - `app/globals.css` — the full "After Hours" design system.
-- `components/` — `Header` (nav, mobile toggle, dropdowns, active-link
+- `components/` — `Header` (demo banner, nav, mobile toggle, dropdowns, active-link
   highlighting via `usePathname`), `Footer`, `MobileCta`, `RoomSubbar` (the 5
   room pages), `ScrollEffects` (scroll-reveal, room sub-bar show/hide),
-  `NotFoundContent` (shared by `/404.html` and the built-in not-found page).
+  `NotFoundContent` (shared by `/404.html` and the built-in not-found page),
+  `ContactForm` and `EventEnquiryForm` (client-side demo thank-you, no backend).
 - `public/images/` — WebP photography.
-- `public/robots.txt`, `public/sitemap.xml` — served as-is.
+- `public/robots.txt` — allows crawl so bots can see the global noindex / `X-Robots-Tag`.
+  There is no sitemap.
 
 ## The five rooms
 
@@ -55,6 +57,6 @@ npm start
 ## Placeholders in this build
 
 - The booking calendar is a static placeholder panel — no booking system is connected.
-- The contact and event enquiry forms have no submit endpoint.
+- The contact and event enquiry forms show a demo thank-you and do not send anywhere.
 - Review content is illustrative.
-- No analytics container is installed.
+- Vercel Analytics is installed for the site owner; the public site is noindex.

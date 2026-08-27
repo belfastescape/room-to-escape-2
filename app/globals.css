@@ -118,6 +118,16 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; }
 .text-link:hover { color: var(--red-hover); }
 
 /* ---------- header / nav ---------- */
+.demo-banner {
+  background: var(--red);
+  color: #10191E;
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  line-height: 1.35;
+}
 .site-header {
   position: sticky; top: 0; z-index: 100;
   background: var(--dark);
@@ -352,11 +362,20 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; }
 input::placeholder, textarea::placeholder { color: #5E7178; }
 
 /* ---------- booking skeleton ---------- */
-.widget-shell { background: #FFFFFF; border-radius: var(--radius); overflow: hidden; position: relative; min-height: 900px; }
+.widget-shell { background: #FFFFFF; border-radius: var(--radius); overflow: hidden; position: relative; }
 .widget-shell iframe { width: 100%; height: 900px; border: 0; display: block; position: relative; z-index: 2; }
 .widget-skeleton {
-  position: absolute; inset: 0; z-index: 1; padding: 32px;
-  display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: center; text-align: center;
+  position: relative; z-index: 1; padding: 48px 32px;
+  display: flex; flex-direction: column; gap: 14px; align-items: center; justify-content: center; text-align: center;
+}
+.form-thanks {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .widget-skeleton .clock {
   width: 64px; height: 64px; border-radius: 50%; background: #F0EDE6;
@@ -364,6 +383,7 @@ input::placeholder, textarea::placeholder { color: #5E7178; }
   font-family: var(--display); font-weight: 700; font-size: 26px; color: #B08325;
 }
 .widget-skeleton .t { font-family: var(--display); font-weight: 700; font-size: 24px; color: #171514; text-transform: uppercase; }
+.widget-skeleton p { color: #5c5650; }
 .widget-skeleton .shimmer {
   width: min(420px, 80%); height: 12px; border-radius: 6px;
   background: linear-gradient(90deg, #EFEAE0 25%, #F7F4EC 50%, #EFEAE0 75%);
@@ -373,7 +393,7 @@ input::placeholder, textarea::placeholder { color: #5E7178; }
 
 /* ---------- sticky room sub-bar ---------- */
 .room-subbar {
-  position: sticky; top: 62px; z-index: 90;
+  position: sticky; top: 96px; z-index: 90;
   background: rgba(8,16,20,0.97); border-bottom: 1px solid var(--dark-border);
   transform: translateY(-110%); transition: transform var(--t-med) var(--ease);
 }
@@ -447,7 +467,7 @@ input::placeholder, textarea::placeholder { color: #5E7178; }
   .nav-cta { display: none; } /* replaced by mobile sticky bar */
   .mobile-cta { display: flex; }
   body { padding-bottom: 58px; } /* room for mobile cta */
-  .room-subbar { top: 54px; }
+  .room-subbar { top: 88px; }
   .section { padding: 52px 0; }
   .section-tight { padding: 44px 0; }
   .page-head { padding: 40px 0 44px; }
@@ -460,7 +480,7 @@ input::placeholder, textarea::placeholder { color: #5E7178; }
   .form-grid { grid-template-columns: 1fr; }
   .cta-band .inner { flex-direction: column; align-items: flex-start; }
   .price-block .split { display: none; }
-  .widget-shell iframe, .widget-shell { min-height: 760px; }
+  .widget-shell iframe { min-height: 0; }
 
   /* inline-styled grids/flex rows that need to stack on mobile — !important
      required since the layout is set via style="" attributes in the markup */

@@ -33,7 +33,8 @@ export default function Page_museum_heist() {
     <div className="scrim"></div>
     <div className="container content">
       
-      <h1 className="h1" style={{margin: '0'}}>The Gallery Job <span style={{display: 'block', fontFamily: 'var(--sans)', fontWeight: '700', fontSize: '15px', letterSpacing: '2.5px', color: 'var(--red-bright)', marginTop: '8px'}}>— SPRINGFIELD ESCAPE ROOM</span></h1>
+      <p className="eyebrow" style={{margin: '0'}}>Springfield escape room</p>
+      <h1 style={{margin: '0'}}>The Gallery Job</h1>
       <div className="chips">
         <span className="chip">Up to 6 players</span>
         <span className="chip">60 minutes</span>
@@ -69,7 +70,7 @@ export default function Page_museum_heist() {
 
         <div style={{display: 'flex', gap: '14px', marginTop: '10px', flexWrap: 'wrap'}}>
           <Link className="btn btn-primary" href="/book-a-game.html?room=the-gallery-job">Book Now</Link>
-          <Link className="btn btn-outline" href="/index.html#rooms">See all rooms</Link>
+          <Link className="btn btn-outline" href="/#rooms">See all rooms</Link>
         </div>
       </div>
       <aside style={{width: '380px', flexShrink: '0', alignSelf: 'flex-start'}} className="panel panel-alt panel-pad reveal">
@@ -112,7 +113,7 @@ export default function Page_museum_heist() {
       <div style={{flex: '1', minWidth: '280px'}} className="panel panel-dark panel-pad">
         <div className="label" style={{marginBottom: '12px'}}>Not this one?</div>
         <p style={{fontSize: '15px', lineHeight: '1.65'}}>Want another easy-going start? <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-vanishing-hour.html">The Vanishing Hour</Link> takes up to 8 players. Veterans should try <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/blackout-cabin.html">Blackout Cabin</Link>.</p>
-        <Link className="btn btn-outline-dark btn-sm" href="/index.html#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
+        <Link className="btn btn-outline-dark btn-sm" href="/#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
       </div>
     </div>
   </section>

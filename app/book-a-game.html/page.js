@@ -1,28 +1,40 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Book a Game | Escape Room - Cipher & Key | Springfield Cipher & Key",
-  description: "Whether it's a birthday party, corporate event, or a fun night out, our four escape rooms in Springfield are available for booking 6 days a week.",
+  title: "Book a Game | Escape Room — Cipher & Key",
+  description: "Whether it's a birthday party, corporate event, or a fun night out, our five escape rooms in Springfield are available for booking 6 days a week.",
   alternates: { canonical: "/book-a-game.html" },
   openGraph: {
     type: "website",
     siteName: "Cipher & Key",
     url: "https://www.cipherandkey.com/book-a-game.html",
     title: "Book a Game — Cipher & Key Springfield",
-    description: "Whether it's a birthday party, corporate event, or a fun night out, our four escape rooms in Springfield are available for booking 6 days a week.",
+    description: "Whether it's a birthday party, corporate event, or a fun night out, our five escape rooms in Springfield are available for booking 6 days a week.",
     images: "https://www.cipherandkey.com/images/home-hero.webp",
   },
   twitter: { card: "summary_large_image" },
 };
 
-export default function Page_book_a_game() {
+const ROOM_NAMES = {
+  "the-vanishing-hour": "The Vanishing Hour",
+  "blackout-cabin": "Blackout Cabin",
+  "dinner-at-eight": "Dinner at Eight",
+  "the-gallery-job": "The Gallery Job",
+  "last-stand": "Last Stand",
+};
+
+export default async function Page_book_a_game({ searchParams }) {
+  const params = await searchParams;
+  const slug = typeof params.room === "string" ? params.room : "";
+  const roomName = ROOM_NAMES[slug];
+
   return (
     <>
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>escape room in springfield</h1>
-      <p className="h1" style={{margin: '0'}}>Book A Game</p>
+      <p className="eyebrow" style={{margin: '0'}}>escape room in springfield</p>
+      <h1 style={{margin: '0'}}>Book A Game</h1>
       <p className="lede" style={{margin: '0'}}>Pick your room. Pick your time. Done. Are you ready for thrilling, exciting, non-stop, adrenaline pumping action? Our rooms are perfect for first-time guests and for the hardened escape artist veteran.</p>
       <div style={{display: 'flex', gap: '26px', flexWrap: 'wrap', alignItems: 'center', marginTop: '6px', fontSize: '14.5px', color: 'var(--on-dark)'}}>
         <span>Questions? Call <a href="tel:2175550182" style={{color: 'var(--red-bright)', fontWeight: '700'}}>(217) 555-0182</a></span>
@@ -55,9 +67,14 @@ export default function Page_book_a_game() {
 
         
         <div className="widget-shell">
-          <div className="widget-skeleton" style={{display: 'flex'}}>
+          <div className="widget-skeleton">
             <div className="clock">60</div>
             <div className="t">Booking calendar</div>
+            {roomName ? (
+              <p style={{fontSize: '15px', lineHeight: '1.6', maxWidth: '420px', textAlign: 'center', margin: '0', color: '#171514'}}>
+                You picked <strong>{roomName}</strong> — in a live site the calendar would open on that room.
+              </p>
+            ) : null}
             <p style={{fontSize: '15px', lineHeight: '1.6', maxWidth: '420px', textAlign: 'center', margin: '0'}}>This is where the live booking system is embedded. On a demonstration build the calendar is not connected.</p>
           </div>
         </div>

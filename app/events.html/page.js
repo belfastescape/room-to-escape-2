@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Cipher & Key: Events - Cipher & Key | Springfield Cipher & Key",
+  title: "Events — Cipher & Key",
   description: "Interested in booking a team building day or a special event? Contact Us to get rates!",
   alternates: { canonical: "/events.html" },
   openGraph: {
@@ -21,8 +21,8 @@ export default function Page_events() {
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>things to do in springfield</h1>
-      <p className="h1" style={{margin: '0'}}>Events</p>
+      <p className="eyebrow" style={{margin: '0'}}>things to do in springfield</p>
+      <h1 style={{margin: '0'}}>Events</h1>
       <p className="lede" style={{margin: '0'}}>want to play a game?</p>
     </div>
   </section>

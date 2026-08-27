@@ -33,8 +33,8 @@ export default function Page_the_disappearing_act() {
     <div className="scrim"></div>
     <div className="container content">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>Mystery &amp; Puzzles</h1>
-      <p className="h1" style={{margin: '0'}}>The Vanishing Hour</p>
+      <p className="eyebrow" style={{margin: '0'}}>Mystery &amp; Puzzles</p>
+      <h1 style={{margin: '0'}}>The Vanishing Hour</h1>
       <div className="chips">
         <span className="chip">Up to 8 players</span>
         <span className="chip">60 minutes</span>
@@ -68,7 +68,7 @@ export default function Page_the_disappearing_act() {
 
         <div style={{display: 'flex', gap: '14px', marginTop: '10px', flexWrap: 'wrap'}}>
           <Link className="btn btn-primary" href="/book-a-game.html?room=the-vanishing-hour">Book Now</Link>
-          <Link className="btn btn-outline" href="/index.html#rooms">See all rooms</Link>
+          <Link className="btn btn-outline" href="/#rooms">See all rooms</Link>
         </div>
       </div>
       <aside style={{width: '380px', flexShrink: '0', alignSelf: 'flex-start'}} className="panel panel-alt panel-pad reveal">
@@ -111,7 +111,7 @@ export default function Page_the_disappearing_act() {
       <div style={{flex: '1', minWidth: '280px'}} className="panel panel-dark panel-pad">
         <div className="label" style={{marginBottom: '12px'}}>Not this one?</div>
         <p style={{fontSize: '15px', lineHeight: '1.65'}}>Compare all five rooms by difficulty, group size and vibe — first-timers usually love this room or <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-gallery-job.html">The Gallery Job</Link>; veterans should try <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/blackout-cabin.html">Blackout Cabin</Link>.</p>
-        <Link className="btn btn-outline-dark btn-sm" href="/index.html#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
+        <Link className="btn btn-outline-dark btn-sm" href="/#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
       </div>
     </div>
   </section>

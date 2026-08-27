@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Escape Room | FAQ - Cipher & Key | Springfield Cipher & Key",
+  title: "FAQ — Cipher & Key",
   description: "Located in Springfield, we offer five unique escape rooms with varying levels of difficulty for families, friends, and coworkers to enjoy. Book now!",
   alternates: { canonical: "/faq.html" },
   openGraph: {
@@ -25,8 +25,8 @@ export default function Page_faq() {
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>things to do in springfield</h1>
-      <p className="h1" style={{margin: '0'}}>Frequently Asked Questions</p>
+      <p className="eyebrow" style={{margin: '0'}}>things to do in springfield</p>
+      <h1 style={{margin: '0'}}>Frequently Asked Questions</h1>
       <p className="lede" style={{margin: '0'}}>Every answer below is exactly as our team wrote it — group sizes, ages, pricing and policies.</p>
     </div>
   </section>

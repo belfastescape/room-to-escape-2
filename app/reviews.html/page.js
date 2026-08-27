@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Springfield Escape Room Reviews - Cipher & Key | Springfield Cipher & Key",
+  title: "Reviews — Cipher & Key",
   description: "What players say about Cipher & Key in Springfield — five themed 60-minute escape rooms for families, friends and work teams. Book online.",
   alternates: { canonical: "/reviews.html" },
   openGraph: {
@@ -21,8 +21,8 @@ export default function Page_reviews() {
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>Springfield Escape Room Reviews</h1>
-      <p className="h1" style={{margin: '0'}}>Reviews</p>
+      <p className="eyebrow" style={{margin: '0'}}>Springfield Escape Room Reviews</p>
+      <h1 style={{margin: '0'}}>Reviews</h1>
       <p className="lede" style={{margin: '0'}}>Many Thanks, from all of us here at Cipher & Key!</p>
       <div className="rating-badge" style={{color: 'var(--on-dark)', marginTop: '6px'}}>
         <span className="stars" aria-hidden="true">★★★★★</span>

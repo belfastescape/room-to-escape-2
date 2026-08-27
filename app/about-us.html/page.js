@@ -1,15 +1,15 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Cipher & Key Game | About Us - Cipher & Key | Springfield Cipher & Key",
-  description: "​Find out why Cipher & Key is one of the top things to do in Springfield! We offer four exciting game themes for your next celebration or teambuilding.",
+  title: "About Us — Cipher & Key",
+  description: "Find out why Cipher & Key is one of the top things to do in Springfield! We offer five exciting game themes for your next celebration or teambuilding.",
   alternates: { canonical: "/about-us.html" },
   openGraph: {
     type: "website",
     siteName: "Cipher & Key",
     url: "https://www.cipherandkey.com/about-us.html",
     title: "About Us — Cipher & Key Springfield",
-    description: "Find out why Cipher & Key is one of the top things to do in Springfield! We offer four exciting game themes for your next celebration or teambuilding.",
+    description: "Find out why Cipher & Key is one of the top things to do in Springfield! We offer five exciting game themes for your next celebration or teambuilding.",
     images: "https://www.cipherandkey.com/images/home-joy.webp",
   },
   twitter: { card: "summary_large_image" },
@@ -21,8 +21,8 @@ export default function Page_about_us() {
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>things to do in springfield</h1>
-      <p className="h1" style={{margin: '0'}}>About Us</p>
+      <p className="eyebrow" style={{margin: '0'}}>things to do in springfield</p>
+      <h1 style={{margin: '0'}}>About Us</h1>
       <p className="lede" style={{margin: '0'}}>ONE ROOM. Your group. SIXTY MINUTES.</p>
     </div>
   </section>
@@ -63,7 +63,7 @@ export default function Page_about_us() {
         </div>
         <div className="step reveal" style={{background: 'var(--bg-alt)'}}>
           <div className="t">Flexible for groups</div>
-          <p>RTE is a small local business with most of its Game Masters living close by — with enough notice we can often accommodate off-hour requests, including days we're not normally open.</p>
+          <p>Cipher &amp; Key is a small local business with most of its Game Masters living close by — with enough notice we can often accommodate off-hour requests, including days we're not normally open.</p>
         </div>
       </div>
     </div>

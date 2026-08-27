@@ -17,6 +17,7 @@ const ABOUT_LINKS = [
   { href: "/faq.html", label: "FAQ" },
   { href: "/location.html", label: "Location" },
   { href: "/reviews.html", label: "Reviews" },
+  { href: "/events.html", label: "Events" },
 ];
 
 function HeaderNav({ pathname }) {
@@ -118,6 +119,7 @@ export default function Header() {
 
   return (
     <header className={`site-header${isStuck ? " is-stuck" : ""}`}>
+      <div className="demo-banner">Demonstration site — not a real business.</div>
       <div className="bar">
         <Link className="logo" href="/">
           CIPHER <span className="red">& KEY</span>

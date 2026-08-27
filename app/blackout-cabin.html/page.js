@@ -33,8 +33,8 @@ export default function Page_cabin_in_the_storm() {
     <div className="scrim"></div>
     <div className="container content">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>things to do in springfield</h1>
-      <p className="h1" style={{margin: '0'}}>Blackout Cabin</p>
+      <p className="eyebrow" style={{margin: '0'}}>things to do in springfield</p>
+      <h1 style={{margin: '0'}}>Blackout Cabin</h1>
       <div className="chips">
         <span className="chip">Up to 6 players</span>
         <span className="chip">60 minutes</span>
@@ -69,7 +69,7 @@ export default function Page_cabin_in_the_storm() {
 
         <div style={{display: 'flex', gap: '14px', marginTop: '10px', flexWrap: 'wrap'}}>
           <Link className="btn btn-primary" href="/book-a-game.html?room=blackout-cabin">Book Now</Link>
-          <Link className="btn btn-outline" href="/index.html#rooms">See all rooms</Link>
+          <Link className="btn btn-outline" href="/#rooms">See all rooms</Link>
         </div>
       </div>
       <aside style={{width: '380px', flexShrink: '0', alignSelf: 'flex-start'}} className="panel panel-alt panel-pad reveal">
@@ -112,7 +112,7 @@ export default function Page_cabin_in_the_storm() {
       <div style={{flex: '1', minWidth: '280px'}} className="panel panel-dark panel-pad">
         <div className="label" style={{marginBottom: '12px'}}>Not this one?</div>
         <p style={{fontSize: '15px', lineHeight: '1.65'}}>First room ever? Start gentler with <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-gallery-job.html">The Gallery Job</Link> or <Link className="text-link" style={{color: 'var(--red-bright)'}} href="/the-vanishing-hour.html">The Vanishing Hour</Link> — then come back for the storm.</p>
-        <Link className="btn btn-outline-dark btn-sm" href="/index.html#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
+        <Link className="btn btn-outline-dark btn-sm" href="/#rooms" style={{marginTop: '10px', display: 'inline-block'}}>Compare all five rooms</Link>
       </div>
     </div>
   </section>

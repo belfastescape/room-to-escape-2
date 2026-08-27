@@ -613,7 +613,7 @@ export default function HomePage() {
             Springfield escape room for parties, team building, and more!
           </p>
           <p style={{ fontSize: "15.5px", lineHeight: "1.7", margin: "0", color: "var(--body)" }}>
-            While we do have a schedule, we also have more flexibility than many of our competitors. RTE is a small
+            While we do have a schedule, we also have more flexibility than many of our competitors. Cipher & Key is a small
             local business with most of its Game Masters living close by. This means that with enough notice we can
             often accommodate off-hour requests for games — including days when we are not normally open. If you are
             interested or have questions about scheduling, it is best to call{" "}

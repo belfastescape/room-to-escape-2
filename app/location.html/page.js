@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Cipher & Key-Location - Cipher & Key | Springfield Cipher & Key",
+  title: "Location — Cipher & Key",
   description: "Cipher & Key is located in central Springfield with free on-site parking — great for birthday parties, team building and other group outings. Book online now!",
   alternates: { canonical: "/location.html" },
   openGraph: {
@@ -20,13 +20,13 @@ export default function Page_location() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Cipher & Key\",\"url\":\"https://www.cipherandkey.com/\",\"telephone\":\"+1-217-555-0182\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1200 Kestrel Street\",\"addressLocality\":\"Springfield\",\"addressRegion\":\"IN\",\"postalCode\":\"62704\",\"addressCountry\":\"US\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"11:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Friday\",\"Saturday\"],\"opens\":\"11:00\",\"closes\":\"21:00\"}]}" }}
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Cipher & Key\",\"url\":\"https://www.cipherandkey.com/\",\"telephone\":\"+1-217-555-0182\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1200 Kestrel Street\",\"addressLocality\":\"Springfield\",\"addressRegion\":\"IL\",\"postalCode\":\"62704\",\"addressCountry\":\"US\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"11:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Friday\",\"Saturday\"],\"opens\":\"11:00\",\"closes\":\"21:00\"}]}" }}
       />
 <section className="page-head">
     <div className="container stack">
       
-      <h1 className="eyebrow" style={{margin: '0'}}>escape room springfield location</h1>
-      <p className="h1" style={{margin: '0'}}>Location</p>
+      <p className="eyebrow" style={{margin: '0'}}>escape room springfield location</p>
+      <h1 style={{margin: '0'}}>Location</h1>
       <p className="lede" style={{margin: '0'}}>Cipher & Key is located at 1200 Kestrel Street, Springfield, IL 62704, two blocks east of the Riverside retail park.</p>
     </div>
   </section>
